@@ -210,5 +210,18 @@
     "stage": "2026-031 보상계획 열람공고 확인",
     "summary": "포항 장기면 마현리712·산82-2 및 서촌리276-8 등 공고 지번 확인. 경매 일치 미검증.",
     "officialUrl": "https://www.gbdc.co.kr/privatefiles/BOARD/49f4151e-7ff2-4c0f-8a56-edbc1cd4c306/f226a750-c5bd-4f5f-a874-21e61787dd9a.pdf"
+  },
+  {
+    "id": "geoje-gohyeoncheon-upper",
+    "name": "고현천 상류부 하천재해예방사업",
+    "type": "하천재해예방사업",
+    "operator": "거제시",
+    "stage": "보상감정 실시·보상협의 미확인/사업 진행",
+    "summary": "거제시 상동동 일원의 고현천 상류부 하천재해예방사업. 경매 2025타경22136의 목록2~4는 경매마당 공고문에 2024년 1월 보상감정 실시 및 보상협의내역 없음이 직접 기재되어 있음. 공식 시행계획 변경고시상 사업기간은 2026년 12월까지이며 수용·사용 물건 및 권리 명세는 변경없음.",
+    "officialUrl": "https://www.geoje.go.kr/index.geoje?DEP_NM=&NOT_ANCMT_CN=&NOT_ANCMT_SJ=&idx=63046&keyword=&m=D&menuCd=DOM_000008902001002001&searchType=&startPage=1",
+    "location": "경상남도 거제시 상동동 일원",
+    "projectPeriod": "2023-08 ~ 2026-12",
+    "parcelNote": "경매 목록2~4의 보상감정 사실은 확인. 세목별 정확한 편입면적과 잔여지 범위는 추가 대조 필요.",
+    "checkedAt": "2026-09-11"
   }
 ]
