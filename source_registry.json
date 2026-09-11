@@ -106,5 +106,34 @@
       "name": "중앙·지방토지수용위원회",
       "status": "재결 열람·공시송달·수용개시일·공탁 대조 대상, 전수 미완료"
     }
-  ]
+  ],
+  "boundaryCoverage": {
+    "checkedAt": "2026-09-11",
+    "sourceName": "LH 내집어디 공개 사업경계",
+    "sourceUrl": "https://wherehome.lh.or.kr/lhmap.do",
+    "sourceLayer": "klhsb:em_jigu_border_pcc",
+    "sourceTotalFeatures": 524,
+    "downloadedFeatures": 524,
+    "uniqueProjectCodes": 520,
+    "sourceCategoryFeatureCounts": {
+      "LH": 508,
+      "PCC": 11,
+      "ALL": 5
+    },
+    "geometryFile": "project_boundaries.geojson",
+    "geometryProcessing": "공개 EPSG:4326 좌표 원형 보존. 사업코드 중복이 있는 다중 도형은 삭제하지 않음.",
+    "coverageComplete": false,
+    "parcelCompensationVerified": false,
+    "latestNoticeReflection": "미확인",
+    "missingScope": [
+      "SH·GH 등 개별 시행기관 사업 전체 경계 미확보",
+      "도로·IC·철도·하천·댐·공항·항만 사업 전체 경계 미확보"
+    ],
+    "nextTargets": [
+      "SH 서울천왕2 공식 지형도면 또는 공개 공간정보",
+      "GH 광명시흥 도시첨단산업단지 외의 도로 설치공사 지형도면",
+      "인천구월2 및 서울서리풀1 등 등록 사업 중 경계 미확보 목록"
+    ],
+    "notes": "전국 단위 공개 레이어의 제공 건수 전체를 받았으나 전국 모든 개발·보상사업을 의미하지 않음. 준공 사업도 포함 가능."
+  }
 }
