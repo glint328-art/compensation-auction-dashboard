@@ -6,7 +6,12 @@
     "operator": "LH / 부산도시공사",
     "stage": "지구계획 승인·보상 추진",
     "summary": "부산 강서구 대저동 일원의 공공주택지구. 경매지번은 반드시 최신 세목조서와 개별 대조.",
-    "officialUrl": "https://www.busan.go.kr/nbgosi/view?gosiGbn=A&sno=75986"
+    "officialUrl": "https://www.lh.or.kr/board.es?act=view&bid=0060&list_no=732934&mid=a10403170500",
+    "location": "부산광역시 강서구 대저1동·대저2동 일원",
+    "compensationSchedule": "2026년 9월 예정(2026-07-03 공고 기준·개별 지급상태 미확인)",
+    "parcelNote": "공고의 A·B구역 및 LH·BMC 담당 구역을 구분하여 지번 대조.",
+    "parcelSourceUrl": "https://www.lh.or.kr/boardDownload.es?bid=0060&list_no=732934&seq=1",
+    "checkedAt": "2026-09-11"
   },
   {
     "id": "gwangmyeong-siheung",
@@ -42,7 +47,14 @@
     "operator": "LH",
     "stage": "보상계획 공고·2026년 9월 이후 보상 예정",
     "summary": "과천시 갈현동 일원. 2026년 보상계획 공고, 보상시기 2026년 9월 이후 예정. 갈현동 경매물건은 지구 편입 지번 여부를 개별 검증.",
-    "officialUrl": "https://lh.or.kr/boardDownload.es?bid=0060&list_no=732030&seq=1"
+    "officialUrl": "https://lh.or.kr/boardDownload.es?bid=0060&list_no=732030&seq=1",
+    "location": "경기도 과천시 갈현동 일원",
+    "scale": "129,726㎡",
+    "compensationSchedule": "2026년 9월 이후 예정(2026-04-30 공고 기준·실제 착수 미확인)",
+    "projectPeriod": "2023-07-25 ~ 2031-12-31 (공고상 사업기간)",
+    "parcelNote": "공고 1쪽 지번 목록 대조. 산126-2는 해당 목록에서 일치 확인 안 됨.",
+    "parcelSourceUrl": "https://lh.or.kr/boardDownload.es?bid=0060&list_no=732030&seq=1",
+    "checkedAt": "2026-09-11"
   },
   {
     "id": "siheung-jeongwang",
@@ -176,7 +188,12 @@
     "operator": "SH",
     "stage": "2025-04 보상계획 안내 확인·현재 지급상태 미확인",
     "summary": "구로구 공식 공고 본문 보상대상 천왕동2-13 및 개봉동314-185 2필지. 경매 일치 미검증.",
-    "officialUrl": "https://www.guro.go.kr/bbs/selectBbsNttView.do?bbsNo=662&key=3477&nttNo=217867&pageIndex=41&pageUnit=10"
+    "officialUrl": "https://www.guro.go.kr/bbs/selectBbsNttView.do?bbsNo=662&key=3477&nttNo=217867&pageIndex=41&pageUnit=10",
+    "type": "국민임대주택단지",
+    "location": "서울특별시 구로구 천왕동 일원",
+    "compensationSchedule": "2025-04-11 ~ 2025-04-25 보상계획 열람(종료). 현재 지급상태 미확인",
+    "parcelNote": "해당 추가 안내 대상: 천왕동 2-13, 개봉동 314-185. 전체 사업구역과 구분.",
+    "checkedAt": "2026-09-11"
   },
   {
     "id": "gh-gwangmyeong-industrial-road",
