@@ -806,6 +806,16 @@
     "officialParcelSource": "https://www.lh.or.kr/boardDownload.es?bid=0060&list_no=732934&seq=1",
     "parcelMatch": "대표지번 일치",
     "expropriationVerified": true,
-    "verificationNote": "공식 보상계획 7쪽 대저2동 1323 일치. 외 1필지와 매각지분의 보상 귀속 미검증. 매각기일 대기."
+    "verificationNote": "공식 보상계획 7쪽 대저2동 1323 일치. 외 1필지와 매각지분의 보상 귀속 미검증. 매각기일 대기. 탱크옥션 목록에서도 사건·대표지번·기일미정 일치 확인(2026-09-11). 감정가는 탱크옥션 미확정으로 경매마당 표시액과 교차 검증되지 않음.",
+    "crossChecks": [
+      {
+        "source": "탱크옥션",
+        "checkedAt": "2026-09-11",
+        "url": "https://www.tankauction.com/ca/caList.php",
+        "query": "2025타경2720",
+        "result": "부산서부1계 대저2동1323 외1건, 예정물건, 감정가 미확정, 기일00.00.00 표시. 상세 로그인 요구.",
+        "detailReviewed": false
+      }
+    ]
   }
 ]
