@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>사업구역·경매 지도</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>*{box-sizing:border-box}body{margin:0;font:16px Arial,"Noto Sans KR",sans-serif;color:#16243b;background:#f4f6f8}header{padding:16px 22px;background:white;border-bottom:1px solid #dce2eb}h1{font-size:22px;margin:0 0 10px}nav{display:flex;gap:16px;flex-wrap:wrap}a{color:#1559b5}main{padding:14px 22px}.tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px}select,input,button{min-height:42px;padding:8px;border:1px solid #ccd5e3;border-radius:7px;background:white;font-size:14px}input[type=checkbox]{min-height:auto}#query{flex:1;min-width:180px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:12px}#map{height:72vh;min-height:420px;border-radius:10px;background:#e3e9ed;z-index:0}.side{background:white;border:1px solid #dce2eb;border-radius:10px;padding:16px;max-height:72vh;overflow:auto}.muted{color:#536276;font-size:13px;line-height:1.6}.legend{display:flex;gap:15px;flex-wrap:wrap;margin:10px 0;font-size:14px}.dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:5px}.boundary{display:inline-block;width:18px;height:12px;border:2px solid #6d28d9;background:#ede9fe;margin-right:5px}#list button{display:block;text-align:left;width:100%;margin:7px 0;line-height:1.5}dl{display:grid;grid-template-columns:80px 1fr;gap:10px;font-size:14px}dd{margin:0;overflow-wrap:anywhere}dt{color:#536276}.source{display:inline-block;margin:8px 10px 0 0}.alert{color:#9a3412}#message{min-height:22px}h2{font-size:18px}#selection{border-bottom:1px solid #dce2eb;padding-bottom:14px;margin-bottom:12px}.leaflet-popup-content{line-height:1.5}@media(max-width:850px){main,header{padding:12px}.layout{grid-template-columns:1fr}#map{height:58vh;min-height:350px}.side{max-height:none}#project{max-width:100%}}</style></head>
+<body><header><h1>사업구역·경매 지도</h1><nav><a href="./#auctions">보상경매</a><a href="./#projects">개발사업</a><strong aria-current="page">지도</strong></nav></header><main>
+<div class="tools"><select id="project" aria-label="사업 선택"><option value="">전체 사업</option></select><input id="query" placeholder="사건번호·주소 검색" aria-label="사건번호·주소 검색"><select id="status" aria-label="경매 상태"><option value="">경매 상태 전체</option><option>진행</option><option>기일대기</option><option>매각완료</option><option>변경</option><option>결과확인</option></select><button id="fit">검색결과 전체 보기</button><button id="daejeo">부산대저 구역 보기</button></div>
+<div class="tools"><label><input type="checkbox" id="points" checked> 경매 위치</label><label><input type="checkbox" id="borders" checked> 확보한 사업경계</label><label><input type="checkbox" id="live"> LH 전국 사업구역 레이어</label></div>
+<div class="legend"><span><i class="dot" style="background:#2563eb"></i>경매 후보</span><span><i class="dot" style="background:#64748b"></i>낙찰완료</span><span><i class="boundary"></i>LH 제공 사업경계</span></div>
+<p id="summary" class="muted" aria-live="polite">지도 자료를 불러오는 중입니다.</p><p id="message" class="muted alert" role="status"></p>
+<div class="layout"><div id="map" aria-label="경매물건 및 사업구역 지도"></div><aside class="side"><div id="selection"><h2>지도에서 물건이나 구역을 선택하세요</h2><p class="muted">표시는 대표지번 위치이며 일괄매각 전체 토지나 필지 경계가 아닙니다. 구역 안에 보여도 보상 대상 여부는 최신 토지조서와 별도로 대조해야 합니다.</p></div><div id="list"></div></aside></div>
+<p class="muted">사업경계 출처: <a href="https://wherehome.lh.or.kr/lhmap.do" target="_blank" rel="noopener">LH 내집어디 공개 지도</a> · 확보일 2026-09-11. 전국 레이어는 LH 지도 제공 범위이며 모든 공익사업을 포함하지 않습니다. 개별 사업구역의 기준 고시일은 미확인입니다. 경매 좌표는 공개 경매 지도에서 확인했습니다.</p>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),money=n=>n==null?'확인중':Number(n).toLocaleString('ko-KR')+'원';
+const link=(u,label)=>{try{const v=new URL(u);return /^https?:$/.test(v.protocol)?'<a class="source" href="'+esc(v.href)+'" target="_blank" rel="noopener">'+esc(label)+'</a>':''}catch{return ''}};
+let map,auctions=[],projects=[],locations=[],boundaries,markerLayer,borderLayer,liveLayer,visibleLayers=[],selectedMarkers=new Map();
+function projectBy(id){return projects.find(p=>p.id===id)||{}}
+function selectAuction(x,c){const p=projectBy(x.projectId);$('#selection').innerHTML='<h2>'+esc(x.caseNo)+' ('+esc(x.itemNo||1)+')</h2><p>'+esc(x.address)+'</p><dl>'+[['상태',x.status],['입찰일',x.bidDate||'기일 미정'],['최저가',money(x.minimum)],['낙찰가',x.soldPrice?money(x.soldPrice):x.status==='매각완료'?'확인중':'낙찰 전'],['관련사업',p.name||'확인중'],['보상검증',x.verificationNote||'공식 조서 대조 미확인'],['대표지번',c?.sourceAddress||'좌표 미확보']].map(([k,v])=>'<dt>'+esc(k)+'</dt><dd>'+esc(v)+'</dd>').join('')+'</dl>'+link(c?.sourceUrl||x.sourceUrl,'경매 지도 출처')+link(x.officialParcelSource||p.officialUrl,'공식 사업자료');const marker=selectedMarkers.get(x.id);if(marker){map.setView(marker.getLatLng(),16);marker.openPopup()}}
+function selectProject(f){const p=projectBy(f.properties.projectId);$('#selection').innerHTML='<h2>'+esc(p.name||f.properties.bzdt_nm)+'</h2><dl>'+[['시행자',p.operator||f.properties.pcc_flag],['진행단계',p.stage||'확인중'],['보상일정',p.compensationSchedule||'확인중'],['경계출처','LH 공개 지도 · '+f.properties.retrievedAt+' 확보'],['편입판단','지도 경계만으로 확정하지 않음']].map(([k,v])=>'<dt>'+esc(k)+'</dt><dd>'+esc(v)+'</dd>').join('')+'</dl>'+link(f.properties.sourceUrl,'경계 출처')+link(p.officialUrl,'보상공고')}
+function fit(){const g=L.featureGroup(visibleLayers);if(g.getLayers().length)map.fitBounds(g.getBounds(),{padding:[25,25],maxZoom:16});else $('#message').textContent='이 조건에는 확보된 좌표·경계가 없습니다. 다른 사업을 선택해 주세요.'}
+function render(doFit=false){
+ markerLayer.clearLayers();borderLayer.clearLayers();selectedMarkers.clear();visibleLayers=[];
+ const pid=$('#project').value,q=$('#query').value.trim().toLowerCase(),status=$('#status').value;
+ const xs=auctions.filter(x=>(!pid||x.projectId===pid)&&(!status||x.status===status)&&(!q||[x.caseNo,x.address].join(' ').toLowerCase().includes(q)));
+ let plotted=0;$('#list').innerHTML='';
+ xs.forEach(x=>{const c=locations.find(c=>c.id===x.id&&c.address===x.address);const btn=document.createElement('button');btn.innerHTML='<b>'+esc(x.caseNo)+' ('+esc(x.itemNo||1)+')</b><br>'+esc(x.address)+'<br><span class="muted">'+esc(x.status)+' · '+(c?'대표지번 좌표 확보':'좌표 확인중')+'</span>';btn.onclick=()=>selectAuction(x,c);$('#list').appendChild(btn);
+ if(!c)return;plotted++;if(!$('#points').checked)return;
+ const m=L.circleMarker([c.lat,c.lng],{radius:7,color:'#fff',weight:2,fillColor:x.status==='매각완료'?'#64748b':'#2563eb',fillOpacity:0.95}).bindTooltip(esc(x.caseNo)+' ('+esc(x.itemNo||1)+')').bindPopup('<b>'+esc(x.caseNo)+'</b><br>'+esc(x.address)+'<br>'+esc(x.status)+' · '+esc(x.bidDate||'기일 미정'));
+ m.on('click',()=>selectAuction(x,c));m.addTo(markerLayer);selectedMarkers.set(x.id,m);visibleLayers.push(m)});
+ const fs=boundaries.features.filter(f=>!pid||f.properties.projectId===pid);
+ if($('#borders').checked)fs.forEach(f=>{const l=L.geoJSON(f,{style:{color:'#6d28d9',weight:3,fillOpacity:0.12}}).bindTooltip(esc(f.properties.bzdt_nm||projectBy(f.properties.projectId).name));l.on('click',()=>selectProject(f));l.addTo(borderLayer);visibleLayers.push(l)});
+ $('#summary').textContent='검색된 경매 '+xs.length+'건 · 좌표 확보 '+plotted+'건 · 좌표 미확보 '+(xs.length-plotted)+'건 · 확보된 사업경계 '+fs.length+'개';
+ $('#message').textContent=pid&&!fs.length?'선택한 사업의 개별 경계 도형은 아직 확보하지 못했습니다. 전국 레이어의 표시 여부도 별도 확인이 필요합니다.':'';
+ if(!xs.length)$('#list').textContent='이 조건의 경매물건은 없습니다. 사업경계는 별도로 표시합니다.';
+ if(doFit)fit();
+}
+async function start(){try{
+ if(!window.L)throw Error('지도 프로그램을 불러오지 못했습니다. 인터넷 연결 후 새로고침해 주세요.');
+ map=L.map('map').setView([36.1,127.7],7);
+ const base=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+ base.on('tileerror',()=>{$('#message').textContent='배경지도 일부를 불러오지 못했습니다. 경매 좌표와 확보한 사업경계는 별도로 표시합니다.'});
+ markerLayer=L.layerGroup().addTo(map);borderLayer=L.layerGroup().addTo(map);
+ liveLayer=L.tileLayer.wms('https://wherehome.lh.or.kr/cmm/action/ProxyGeoMap.do?purl='+encodeURIComponent('http://GEOSERVERSECUREURL/geoserver/klhsb/wms'),{layers:'klhsb:em_jigu_border_pcc',format:'image/png',transparent:true,version:'1.1.1',attribution:'사업경계: LH 내집어디',maxZoom:19});
+ liveLayer.on('tileerror',()=>{$('#message').textContent='LH 전국 경계 레이어를 불러오지 못했습니다. 확보한 경계만 표시할 수 있습니다.'});
+ const json=async p=>{let r=await fetch(p+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error(p+' 자료를 불러오지 못했습니다.');return r.json()};
+ [auctions,projects,locations,boundaries]=await Promise.all(['auction_data.json','projects.json','map_points.json','project_boundaries.geojson'].map(json));
+ $('#project').innerHTML='<option value="">전체 사업</option>'+projects.map(p=>'<option value="'+esc(p.id)+'">'+esc(p.name)+'</option>').join('');
+ ['project','status','points','borders'].forEach(id=>$('#'+id).onchange=()=>render(id==='project'));$('#query').oninput=()=>render();$('#fit').onclick=fit;
+ $('#daejeo').onclick=()=>{$('#project').value='busan-daejeo';$('#query').value='';$('#status').value='';render(true)};
+ $('#live').onchange=()=>{$('#live').checked?liveLayer.addTo(map):map.removeLayer(liveLayer)};
+ const pid=new URLSearchParams(location.search).get('project');if(pid&&projects.some(p=>p.id===pid))$('#project').value=pid;
+ render(true);
+ }catch(e){$('#message').textContent=e.message;$('#summary').textContent='지도 로딩 오류';}}
+start();
+</script></body></html>
