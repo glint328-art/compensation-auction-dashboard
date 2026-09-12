@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11",
+  "updatedAt": "2026-09-12",
   "purpose": "전국 수용·협의취득 보상 대상 토지와 경매·공매 지번 대조",
   "coverageComplete": false,
   "automatedCollectionImplemented": false,
@@ -135,5 +135,36 @@
       "인천구월2 및 서울서리풀1 등 등록 사업 중 경계 미확보 목록"
     ],
     "notes": "전국 단위 공개 레이어의 제공 건수 전체를 받았으나 전국 모든 개발·보상사업을 의미하지 않음. 준공 사업도 포함 가능."
-  }
+  },
+  "researchRuns": [
+    {
+      "checkedAt": "2026-09-12",
+      "scope": "SH 천왕2 및 GH 산단 외 도로 경계 확보 후속조사",
+      "findings": [
+        {
+          "authority": "GH",
+          "url": "https://www.gh.or.kr/gh/reward-announcement.do",
+          "page": "1/33 (총 328건 표기)",
+          "result": "광명시흥 도시첨단산업단지 외의 도로 설치공사 공고 2개(64904,64882) 2026-05-27 등록 목록 재확인. 상세 및 첨부 열람 실패. 토지조서·경계 신규 확보 없음."
+        },
+        {
+          "authority": "SH/구로구",
+          "url": "https://www.guro.go.kr/www/selectBbsNttView.do?bbsNo=845&key=1868&nttNo=83125&pageIndex=7&pageUnit=10",
+          "result": "검색결과에 2009년 천왕2 지형도면 첨부가 있으나 열람된 본문에서 첨부 링크 확인 실패. 천왕2역세권 재개발 정비구역은 별개 사업으로 미연결."
+        }
+      ],
+      "nextTargets": [
+        "GH 보상공고 2페이지 및 인천구월2 지형도면",
+        "서울 공간정보의 천왕2 국민임대주택단지 경계 원본"
+      ],
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "deploymentCheck": {
+        "method": "GitHub Pages workflow success and map.html at deployed commit",
+        "commit": "8214e3291bfe39df6c9e05932de4ca99d7beed0e",
+        "nationwideControlPresent": true,
+        "liveHttpCheck": "로컬 네트워크 제한 및 웹 열람 실패로 이번 실행에서는 미확인"
+      }
+    }
+  ]
 }
