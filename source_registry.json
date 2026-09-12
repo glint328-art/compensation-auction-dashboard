@@ -291,6 +291,22 @@
         "파주법원1 재공고의 파주시 공개 대체본",
         "광명시흥 2차 HWP 대체 열람 자료"
       ]
+    },
+    {
+      "checkedAt": "2026-09-13",
+      "scope": "부산연구개발특구 첨단복합지구 공식 보상공고",
+      "sourceUrl": "https://www.lh.or.kr/boardDownload.es?bid=0060&list_no=732933&seq=3",
+      "result": "8쪽 PDF 본문에서 시행자·위치·면적·사업기간·기관별 지번 및 보상 예정시기 확인. 기존 부산대저와 별개 사업 신규 등록. 현재 경매 대표주소만 검토했으며 일괄매각 전체 필지 대조 미완료로 확정물건 추가 없음.",
+      "newProjectCount": 1,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "boundarySourceUrl": "https://www.busan.go.kr/news/gosiboard/view?articlNo=2&curPage=231&dataNo=107843",
+      "boundaryStatus": "2025-104호 49MB 지형도면 PDF 게시처 확인. 내부 좌표 미검증으로 기존 524개 도형 유지.",
+      "nextTargets": [
+        "부산연구개발특구 2025-104호 지형도면 공개 좌표 및 변경고시",
+        "부산도시공사 센텀2 보상공고·경계 조사"
+      ],
+      "deploymentCheck": "프로젝트 GitHub 저장 완료. 이번 변경의 Pages 배포 완료는 별도 미확인."
     }
   ]
 }
