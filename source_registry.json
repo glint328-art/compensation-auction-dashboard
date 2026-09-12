@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12",
+  "updatedAt": "2026-09-13",
   "purpose": "전국 수용·협의취득 보상 대상 토지와 경매·공매 지번 대조",
   "coverageComplete": false,
   "automatedCollectionImplemented": false,
@@ -191,6 +191,20 @@
         "GH 보상공고 3페이지",
         "고양시고시 제2026-71호 원문·경계",
         "인천구월2 지정고시 PDF와 최신 변경고시 대조"
+      ]
+    },
+    {
+      "checkedAt": "2026-09-13",
+      "scope": "GH 보상공고 3/33페이지",
+      "sourceUrl": "https://www.gh.or.kr/gh/reward-announcement.do?mode=list&article.offset=20&articleLimit=10",
+      "result": "2025-11-21 서서울–신광명 송전선로 보상계획 및 2025-10-01 광명학온 외 시설 유통단지 연결로 협의 공시송달 목록 확인. 상세 64393·64247 열람 실패.",
+      "newProjectCount": 2,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "GH 보상공고 4페이지",
+        "서서울–신광명 선로 사업시행자 공식 실시계획 및 수용/사용 구분",
+        "광명학온 지구 외 연결로 세목고시"
       ]
     }
   ]
