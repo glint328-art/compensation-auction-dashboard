@@ -340,5 +340,20 @@
     "checkedAt": "2026-09-13",
     "verificationScope": "공식 공고 목록만 확인",
     "boundaryStatus": "공식 경계 좌표 미확보"
+  },
+  {
+    "id": "icheon-daewol2",
+    "name": "이천 대월2 일반산업단지",
+    "type": "일반산업단지",
+    "operator": "이천시 / GH (2024년 이천시의회 회의록 기준)",
+    "location": "경기도 이천시 대월면 구시리 640번지 일원 (2024년 회의록 기준)",
+    "stage": "2025-05-23 보상계획 공고 목록 확인 · 현재 보상단계 미확인",
+    "summary": "GH 보상공고 목록에서 대월2 보상계획 공고 확인. 기존 대월일반산업단지(초지리)와 구분. 상세 공고·토지조서·최신 사업변경은 미검증.",
+    "officialUrl": "https://www.gh.or.kr/gh/reward-announcement.do?mode=list&article.offset=30&articleLimit=10",
+    "projectOverviewSourceUrl": "https://council.icheon.go.kr/minutes/city/xcom/web/minutesViewer.php?id=2958",
+    "verificationScope": "GH 공식 공고 목록 및 시의회 검색결과 확인. 첨부 원문 미열람.",
+    "parcelNote": "정확한 편입지번·면적 및 경매 일치 미검증",
+    "boundaryStatus": "공식 경계 좌표 미확보",
+    "checkedAt": "2026-09-13"
   }
 ]
