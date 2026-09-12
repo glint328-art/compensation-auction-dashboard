@@ -24,7 +24,11 @@
     "parcelSourceUrl": "https://lh.or.kr/boardDownload.es?bid=0060&list_no=728339&seq=1",
     "parcelNote": "2025년 공고상 담당: LH 노온사동·과림동·광명동·옥길동, GH 가학동·무지내동·금이동. 해당 동 전체가 편입되는 것은 아니며 필지별 조서 대조 필요.",
     "verificationScope": "공식 공고 게시글·첨부 링크 및 공개 검색문서의 담당기관 안내 확인. PDF 전체 토지조서 미대조.",
-    "sourceCheckedAt": "2026-09-13"
+    "sourceCheckedAt": "2026-09-13",
+    "compensationSchedule": "2차 보상계획 열람·이의신청: 2026-07-31 ~ 2026-08-14 (종료). 실제 개별 보상금 지급상태 미확인",
+    "secondNoticeUrl": "https://www.lh.or.kr/board.es?act=view&bid=0060&list_no=733307&mid=a10403170500",
+    "secondNoticeOwnerLetterUrl": "https://www.lh.or.kr/boardDownload.es?bid=0060&list_no=733307&seq=2",
+    "secondNoticeParcelStatus": "소유자 안내문에 토지·물건조서 별도송부 명시. 공개 안내문만으로 경매 필지의 2차 포함 여부 확인 불가."
   },
   {
     "id": "sejong-smart",
