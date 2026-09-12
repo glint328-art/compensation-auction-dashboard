@@ -363,5 +363,26 @@
     "parcelNote": "정확한 편입지번·면적 및 경매 일치 미검증",
     "boundaryStatus": "공식 경계 좌표 미확보",
     "checkedAt": "2026-09-13"
+  },
+  {
+    "id": "busan-rnd-complex",
+    "name": "부산연구개발특구 첨단복합지구 개발사업",
+    "type": "연구개발특구 개발사업",
+    "operator": "LH / 부산도시공사",
+    "location": "부산광역시 강서구 대저1동 일원",
+    "scale": "1,744,114㎡ (2026-07-03 보상공고 기준)",
+    "stage": "사업인정·실시계획 승인 및 보상계획 공고 확인",
+    "summary": "부산대저 공공주택지구와 별개 사업. 2026년 공식 보상공고에 LH·부산도시공사 담당 지번이 구분되어 있음.",
+    "compensationSchedule": "2026년 9월 예정(2026-07-03 공고 기준·실제 착수 및 지급 미확인). 열람기간 2026-07-03~07-20 종료.",
+    "projectPeriod": "2012~2030년 (공고상 사업기간·준공 확정일 아님)",
+    "constructionSchedule": "착공·준공 실제 일정 미확인",
+    "parcelNote": "공고 1~4쪽 담당기관별 지번 목록과 분할 전 지번 확인. 전체 경매필지·편입면적·보상권리 대조 미완료.",
+    "officialUrl": "https://www.lh.or.kr/board.es?act=view&bid=0060&list_no=732933&mid=a10403170500",
+    "parcelSourceUrl": "https://www.lh.or.kr/boardDownload.es?bid=0060&list_no=732933&seq=3",
+    "designationNotice": "부산광역시 고시 제2025-104호 (2025-03-26)",
+    "designationSourceUrl": "https://www.busan.go.kr/news/gosiboard/view?articlNo=2&curPage=231&dataNo=107843",
+    "boundaryStatus": "공식 경계 좌표 미확보 · 지형도면 고시 게시처 확인, 도면 내부 좌표 미검증",
+    "latestNoticeReflection": "후속 변경고시 반영 여부 미확인",
+    "checkedAt": "2026-09-13"
   }
 ]
