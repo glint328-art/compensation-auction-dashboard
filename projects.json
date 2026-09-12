@@ -312,5 +312,33 @@
     "location": "울산광역시 울주군 서생면 신암리 일원",
     "parcelNote": "신암리 515-2의 중로2류 저촉은 경매자료에서 확인. 정확한 도로 편입면적과 신규 보상권리 존재 여부는 미확인.",
     "checkedAt": "2026-09-12"
+  },
+  {
+    "id": "seoseoul-singwangmyeong-transmission",
+    "name": "345kV 서서울–신광명 T/L 송전선로 설치사업",
+    "type": "송전선로 설치",
+    "stage": "2025-11-21 보상계획 및 열람 공고 목록 확인",
+    "officialUrl": "https://www.gh.or.kr/gh/reward-announcement.do?articleNo=64393&mode=view",
+    "parcelNote": "토지 취득과 사용권·구분지상권 보상 구분 미확인. 필지·면적 및 현재 지급상태 미검증.",
+    "operator": "개별 시행자 미확인 · GH 보상공고 게시",
+    "summary": "2025-11-21 보상계획 및 열람 공고 목록 확인. 상세 공고와 토지조서는 아직 열람하지 못했으며 경매물건과의 일치 여부는 미확인.",
+    "sourceListUrl": "https://www.gh.or.kr/gh/reward-announcement.do?mode=list&article.offset=20&articleLimit=10",
+    "checkedAt": "2026-09-13",
+    "verificationScope": "공식 공고 목록만 확인",
+    "boundaryStatus": "공식 경계 좌표 미확보"
+  },
+  {
+    "id": "gwangmyeong-hagon-distribution-road",
+    "name": "광명학온 공공주택지구 외 시설(유통단지 연결로)",
+    "type": "지구 외 연결도로",
+    "stage": "2025-10-01 손실보상협의 공시송달 공고 목록 확인",
+    "officialUrl": "https://www.gh.or.kr/gh/reward-announcement.do?articleNo=64247&mode=view",
+    "parcelNote": "광명학온 전체 지구와 지구 외 연결로를 구분. 해당 도로 편입 필지·면적 및 현재 보상상태 미검증.",
+    "operator": "개별 시행자 미확인 · GH 보상공고 게시",
+    "summary": "2025-10-01 손실보상협의 공시송달 공고 목록 확인. 상세 공고와 토지조서는 아직 열람하지 못했으며 경매물건과의 일치 여부는 미확인.",
+    "sourceListUrl": "https://www.gh.or.kr/gh/reward-announcement.do?mode=list&article.offset=20&articleLimit=10",
+    "checkedAt": "2026-09-13",
+    "verificationScope": "공식 공고 목록만 확인",
+    "boundaryStatus": "공식 경계 좌표 미확보"
   }
 ]
