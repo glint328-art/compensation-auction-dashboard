@@ -384,6 +384,28 @@
         "대전 서구 2026-1608호 빈집정비 보상공고 원문(2026-09-10)",
         "대전동구 정동 지구 최신 사업단계 및 미보상 잔여분"
       ]
+    },
+    {
+      "checkedAt": "2026-09-13",
+      "scope": "대전 서구 빈집정비 보상공고 및 대덕구 유사사업 구분",
+      "sources": [
+        {
+          "url": "https://www.seogu.go.kr/prog/saeolGosi/GOSI/kor/sub04_02_01/list.do?pageIndex=2",
+          "result": "2026-1608호 후속 원문 열람 시 웹 도구 유효 응답 없음. 대상필지 미확보."
+        },
+        {
+          "url": "https://www.daedeok.go.kr/board/binary/DPT_000066/2106575.pdf",
+          "result": "공식 PDF 검색문서에서 신탄진동295-37은 2025-08 보상완료 표기, 신탄진동123-38은 임대 후 철거 방식 표기. 직접 PDF 열람 timeout. 서구 사업과 별개로 구분하고 신규 수용보상 후보로 추가하지 않음."
+        }
+      ],
+      "newProjectCount": 0,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "대전도시공사 보상정보 CSV 19행 직접 열람",
+        "대전 서구2026-1608호 상세공고 대체 공식 게시처",
+        "지역 순환: 충북개발공사 보상공고·공간정보"
+      ]
     }
   ]
 }
