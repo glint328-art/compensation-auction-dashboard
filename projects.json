@@ -17,10 +17,14 @@
     "id": "gwangmyeong-siheung",
     "name": "광명시흥 공공주택지구",
     "type": "공공주택지구",
-    "operator": "LH",
+    "operator": "LH / GH (2025년 보상공고상 담당기관)",
     "stage": "보상 추진",
     "summary": "광명·시흥 일원의 대규모 공공주택지구. 동일 동 소재만으로 편입 확정하지 않음.",
-    "officialUrl": "https://www.lh.or.kr/"
+    "officialUrl": "https://www.gm.go.kr/pt/user/bbs/BD_selectBbs.do?q_bbsCode=2032&q_bbscttSn=20250827091820204",
+    "parcelSourceUrl": "https://lh.or.kr/boardDownload.es?bid=0060&list_no=728339&seq=1",
+    "parcelNote": "2025년 공고상 담당: LH 노온사동·과림동·광명동·옥길동, GH 가학동·무지내동·금이동. 해당 동 전체가 편입되는 것은 아니며 필지별 조서 대조 필요.",
+    "verificationScope": "공식 공고 게시글·첨부 링크 및 공개 검색문서의 담당기관 안내 확인. PDF 전체 토지조서 미대조.",
+    "sourceCheckedAt": "2026-09-13"
   },
   {
     "id": "sejong-smart",
