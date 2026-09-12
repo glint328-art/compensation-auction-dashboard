@@ -72,7 +72,13 @@
     "operator": "인천도시공사",
     "stage": "보상계획 공고·보상 추진",
     "summary": "구월동·남촌동·수산동 등 일원. 2025-12-31 보상계획 공고. 해당 지역 경매 토지를 편입 토지조서와 대조.",
-    "officialUrl": "https://newsletter.ih.co.kr/main/bbs/bbsMsgDetail.do?bcd=notice&msg_seq=4184&pgno=1"
+    "officialUrl": "https://newsletter.ih.co.kr/main/bbs/bbsMsgDetail.do?bcd=notice&msg_seq=4184&pgno=1",
+    "scale": "220만㎡ (iH 사업목록 표기)",
+    "projectPeriod": "2023 ~ 2032 (iH 사업목록 기준·준공 확정일 아님)",
+    "projectOverviewSourceUrl": "https://www.ih.co.kr/main/business/development.jsp",
+    "designationSourceUrl": "https://www.yeonsu.go.kr/main/community/notify/gosi_other.asp?page=v&seq=1975",
+    "designationNotice": "국토교통부 고시 제2023-603호 (2023-10-30)",
+    "overviewCheckedAt": "2026-09-12"
   },
   {
     "id": "paju-beobwon1",
@@ -247,5 +253,52 @@
     "location": "부산광역시 기장군 기장읍 죽성리 363",
     "parcelNote": "공개 경매자료상 '도시계획시설 도로 저촉'. 약 14%/18.5㎡ 수치는 보조 분석치로 공식 면적 확정 전까지 참고치로만 사용.",
     "checkedAt": "2026-09-11"
+  },
+  {
+    "id": "gh-kintex-interchange",
+    "name": "킨텍스로 입체교차로 개선사업",
+    "type": "도로·입체교차로 개선",
+    "operator": "개별 시행자 미확인 · GH 보상공고 게시",
+    "stage": "2026-04-10 보상계획 및 열람공고 목록 확인",
+    "summary": "GH 보상공고 2페이지에서 공고 및 고양시고시 제2026-71호 첨부명 확인. 첨부 원문·경계 좌표·필지 조서는 미확보.",
+    "officialUrl": "https://www.gh.or.kr/gh/reward-announcement.do?article.offset=10&articleLimit=10&articleNo=64773&mode=view",
+    "sourceListUrl": "https://www.gh.or.kr/gh/reward-announcement.do?mode=list&article.offset=10&articleLimit=10",
+    "compensationSchedule": "공고 등록일 2026-04-10 · 열람기간 및 실제 보상 착수 미확인",
+    "checkedAt": "2026-09-12",
+    "verificationScope": "공식 목록 열람 · 상세 첨부 미검증",
+    "parcelNote": "필지별 토지조서 대조 미완료. 경계와 보상권리 미확인.",
+    "boundaryStatus": "공식 좌표 미확보"
+  },
+  {
+    "id": "ih-cheongna-line7-compensation",
+    "name": "서울도시철도 7호선 청라연장사업 보상",
+    "type": "철도 연장사업 보상",
+    "operator": "iH 보상업무 · 건설사업 시행자 별도 확인 필요",
+    "stage": "iH 공식 사업목록 등재 · 현재 보상 진행 단계 미확인",
+    "scale": "23.1만㎡ (iH 보상사업 목록 기준)",
+    "projectPeriod": "2021 ~ 2026 (iH 보상사업 목록 기준·개통일 아님)",
+    "officialUrl": "https://www.ih.co.kr/main/land/landDetail.do?landDiv=1110&land_seq=127",
+    "sourceListUrl": "https://www.ih.co.kr/main/business/development.jsp",
+    "summary": "iH 도시개발사업 목록에서 사업명·보상사업 규모·기간 확인. 전체 철도 노선 경계 및 개통일을 뜻하지 않음.",
+    "checkedAt": "2026-09-12",
+    "verificationScope": "공식 목록 열람 · 상세 첨부 미검증",
+    "parcelNote": "필지별 토지조서 대조 미완료. 경계와 보상권리 미확인.",
+    "boundaryStatus": "공식 좌표 미확보"
+  },
+  {
+    "id": "ih-geomdan-line1-compensation",
+    "name": "인천도시철도 1호선 검단연장선 건설사업 보상",
+    "type": "철도 연장사업 보상",
+    "operator": "iH 보상업무 · 건설사업 시행자 별도 확인 필요",
+    "stage": "iH 공식 사업목록 등재 · 현재 보상 진행 단계 미확인",
+    "scale": "19.5만㎡ (iH 보상사업 목록 기준)",
+    "projectPeriod": "2021 ~ 2026 (iH 보상사업 목록 기준·개통일 아님)",
+    "officialUrl": "https://www.ih.co.kr/main/business/development.jsp",
+    "sourceListUrl": "https://www.ih.co.kr/main/business/development.jsp",
+    "summary": "iH 도시개발사업 목록에서 사업명·보상사업 규모·기간 확인. 보상사업의 기간과 열차 개통 여부는 별도 구분.",
+    "checkedAt": "2026-09-12",
+    "verificationScope": "공식 목록 열람 · 상세 첨부 미검증",
+    "parcelNote": "필지별 토지조서 대조 미완료. 경계와 보상권리 미확인.",
+    "boundaryStatus": "공식 좌표 미확보"
   }
 ]
