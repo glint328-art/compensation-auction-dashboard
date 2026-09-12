@@ -258,6 +258,21 @@
         "GH 보상공고 5페이지",
         "광명시흥 2026-07-31 2차 보상계획 공고 및 노온사동 필지 대조"
       ]
+    },
+    {
+      "checkedAt": "2026-09-13",
+      "scope": "광명시흥 2차 보상계획 소유자 안내문",
+      "sourceUrl": "https://www.lh.or.kr/boardDownload.es?bid=0060&list_no=733307&seq=2",
+      "result": "공식 PDF 2쪽 본문 확인. 2026-07-31~08-14 열람기간 및 토지·물건조서 별도송부 확인. 공고문 HWP(seq=3)는 웹 파서 미지원으로 미열람. 안내문에는 대조할 필지 목록이 없어 경매 확정상태 변경하지 않음.",
+      "updatedProjectIds": [
+        "gwangmyeong-siheung"
+      ],
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "GH 보상공고 5페이지",
+        "광명시흥 2차 공고문 HWP의 공개 열람 대체본 또는 토지조서"
+      ]
     }
   ]
 }
