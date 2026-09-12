@@ -165,6 +165,33 @@
         "nationwideControlPresent": true,
         "liveHttpCheck": "로컬 네트워크 제한 및 웹 열람 실패로 이번 실행에서는 미확인"
       }
+    },
+    {
+      "checkedAt": "2026-09-12",
+      "scope": "GH 보상공고 2페이지 및 iH 도시개발사업 목록",
+      "sources": [
+        {
+          "url": "https://www.gh.or.kr/gh/reward-announcement.do?mode=list&article.offset=10&articleLimit=10",
+          "page": "2/33",
+          "result": "킨텍스로 입체교차로 보상계획 공고 2026-04-10 및 고양시고시 제2026-71호 첨부명 확인. 상세 열람 실패."
+        },
+        {
+          "url": "https://www.ih.co.kr/main/business/development.jsp",
+          "result": "총 17개 사업 목록 열람, 최종수정일 2026-08-24 표기. 철도 연장 보상 2개 사업명·규모·기간 확인."
+        },
+        {
+          "url": "https://www.yeonsu.go.kr/main/community/notify/gosi_other.asp?page=v&seq=1975",
+          "result": "2023-10-30 지구지정고시 번호 및 PDF 첨부 링크 확인. PDF 내부 지번·경계는 미검증."
+        }
+      ],
+      "newProjectCount": 3,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "GH 보상공고 3페이지",
+        "고양시고시 제2026-71호 원문·경계",
+        "인천구월2 지정고시 PDF와 최신 변경고시 대조"
+      ]
     }
   ]
 }
