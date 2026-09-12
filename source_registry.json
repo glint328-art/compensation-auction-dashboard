@@ -206,6 +206,28 @@
         "서서울–신광명 선로 사업시행자 공식 실시계획 및 수용/사용 구분",
         "광명학온 지구 외 연결로 세목고시"
       ]
+    },
+    {
+      "checkedAt": "2026-09-13",
+      "scope": "서서울–신광명 송전선로 사업 동일성 및 보상유형 대조",
+      "sources": [
+        {
+          "url": "https://www.gm.go.kr/pt/user/nftcBbs/BD_selectNftcBbsDetail.do?q_nftcBbsCode=1001&q_nftcBbsMgtno=54362",
+          "result": "광명시 공고 제2023-2548호(2023-12-14) 본문 확인. 서서울고속도로(주)·서울지방국토관리청 시행 송전선로 이설 사업. GH 2025 설치사업과 동일성 미확인으로 시행자를 전용하지 않음."
+        },
+        {
+          "url": "https://www.ansan.go.kr/danwongu/common/bbs/selectBbsDetail.do?bbs_code=B0217&bbs_seq=1586867",
+          "result": "검색결과에서 한국전력 기설송전선로 권원확보사업(2차), 23수용0506 확인. 원문 미열람. GH 설치사업과 통합하지 않음."
+        }
+      ],
+      "newProjectCount": 0,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "result": "명칭이 유사한 설치·이설·기설 권원확보 공고를 구분. GH 해당 사업의 수용/사용권 보상 유형 결론 보류.",
+      "nextTargets": [
+        "GH 보상공고 4페이지",
+        "GH 64393 공고 원문에서 사업인정고시 번호 확인 후 동일성 대조"
+      ]
     }
   ]
 }
