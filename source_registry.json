@@ -228,6 +228,20 @@
         "GH 보상공고 4페이지",
         "GH 64393 공고 원문에서 사업인정고시 번호 확인 후 동일성 대조"
       ]
+    },
+    {
+      "checkedAt": "2026-09-13",
+      "scope": "GH 보상공고 4/33페이지",
+      "sourceUrl": "https://www.gh.or.kr/gh/reward-announcement.do?mode=list&article.offset=30&articleLimit=10",
+      "result": "2025-05-23 이천 대월2 보상계획 공고 확인. 상세 열람 실패. 기존 대월산단 초지리와 구분; 2024년 시의회 검색결과 구시리 위치 및 공동시행 확인.",
+      "newProjectCount": 1,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "GH 보상공고 5페이지",
+        "대월2 2025 보상공고 첨부·최신 지형도면",
+        "광명시흥 2025-08-26 보상공고 첨부"
+      ]
     }
   ]
 }
