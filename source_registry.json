@@ -242,6 +242,22 @@
         "대월2 2025 보상공고 첨부·최신 지형도면",
         "광명시흥 2025-08-26 보상공고 첨부"
       ]
+    },
+    {
+      "checkedAt": "2026-09-13",
+      "scope": "광명시흥 보상공고 대체 공식 출처 조사",
+      "sourceUrl": "https://www.gm.go.kr/pt/user/bbs/BD_selectBbs.do?q_bbsCode=2032&q_bbscttSn=20250827091820204",
+      "result": "GH 첨부 다운로드는 application/octet-stream으로 웹 파서 열람 실패. 광명시 공고 게시글 및 LH 동일 공고 PDF 검색결과에서 LH/GH 동별 담당 안내 확인. 사업의 LH 단독 표기를 보완하고 원문 링크 연결. PDF 전체 조서 미대조.",
+      "newProjectCount": 0,
+      "updatedProjectIds": [
+        "gwangmyeong-siheung"
+      ],
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "GH 보상공고 5페이지",
+        "광명시흥 2026-07-31 2차 보상계획 공고 및 노온사동 필지 대조"
+      ]
     }
   ]
 }
