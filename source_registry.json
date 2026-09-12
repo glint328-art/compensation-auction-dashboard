@@ -273,6 +273,24 @@
         "GH 보상공고 5페이지",
         "광명시흥 2차 공고문 HWP의 공개 열람 대체본 또는 토지조서"
       ]
+    },
+    {
+      "checkedAt": "2026-09-13",
+      "scope": "GH 보상공고 5/33페이지",
+      "sourceUrl": "https://www.gh.or.kr/gh/reward-announcement.do?mode=list&article.offset=40&articleLimit=10",
+      "result": "파주법원1 보상계획 재공고 2025-03-17 및 2024-12-31 원공고 목록 확인. 재공고 첨부(articleNo=63255,attachNo=78932)는 웹 도구 열람 실패. 기존 등록 사업의 현재 단계·필지 편입은 변경하지 않음.",
+      "newProjectCount": 0,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "deploymentCheck": {
+        "commit": "aaef0d5e001af106a2ad3742d74a177daa81e431",
+        "result": "GitHub Pages workflow completed/success 확인. 실시간 HTTP 별도 미검증."
+      },
+      "nextTargets": [
+        "GH 6페이지 대신 지방공사 출처 순환: BMC 신규 보상계획·공식 사업구역",
+        "파주법원1 재공고의 파주시 공개 대체본",
+        "광명시흥 2차 HWP 대체 열람 자료"
+      ]
     }
   ]
 }
