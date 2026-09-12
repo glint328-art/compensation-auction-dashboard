@@ -307,6 +307,24 @@
         "부산도시공사 센텀2 보상공고·경계 조사"
       ],
       "deploymentCheck": "프로젝트 GitHub 저장 완료. 이번 변경의 Pages 배포 완료는 별도 미확인."
+    },
+    {
+      "checkedAt": "2026-09-13",
+      "scope": "부산 센텀2 공식 사업현황 및 보상공고 탐색",
+      "sourceUrl": "https://www.busan.go.kr/depart/ecnmahproject08",
+      "result": "부산시 공식 사업현황 검색문서에서 1-1공구 2024-11 및 1-2공구 2025-11 착공 표기와 2·3단계 2026년 이후 추진계획을 구분해 확인. 본문 직접 열람은 timeout. BMC 최신 보상계획 원문·토지조서·경계 좌표 미확보로 사업 및 경매 데이터 변경 보류.",
+      "newProjectCount": 0,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "deploymentCheck": {
+        "commit": "3e4756ca9f8e8bd125656ca9be4636456f05e181",
+        "result": "직전 부산연구개발특구 추가를 포함한 GitHub Pages workflow completed/success 확인. 실시간 브라우저 별도 미검증."
+      },
+      "nextTargets": [
+        "센텀2 부산시 사업현황 본문 및 BMC 공식 최신 보상공고 대체 게시처",
+        "부산연구개발특구 2025-104호 지형도면",
+        "지역 순환: 대구도시개발공사 보상공고 및 공개 경계"
+      ]
     }
   ]
 }
