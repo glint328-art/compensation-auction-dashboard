@@ -175,5 +175,31 @@
     "verifiedAt":"2026-09-14",
     "expropriationVerified":false,
     "rightsRiskLevel":"확인필요"
+  },
+  {
+    "id":"2025타경3102-1",
+    "region":"호남권",
+    "court":"광주지방법원",
+    "caseNo":"2025타경3102",
+    "itemNo":"1",
+    "status":"진행",
+    "address":"광주광역시 남구 승촌동 765",
+    "land":"답 (현황 주거나지)",
+    "area":"1,990㎡",
+    "appraisal":1472600000,
+    "minimum":824656000,
+    "bidDate":"2026-09-23",
+    "failedCount":2,
+    "projectId":"gwangju-seungchon-roadparking-candidate",
+    "confirm":"부분확인",
+    "inclusionType":"편입범위확인중",
+    "partialArea":"미확인 · 소로3류 및 주차장 저촉",
+    "residualArea":"미확인",
+    "risk":"도시계획시설 도로·주차장 저촉·농취증·원상회복명령 가능성·지상 비닐하우스 매각제외·실시계획/세목고시/미보상 여부 미확인",
+    "note":"경매마당 공고문·매각물건명세서가 본건이 도시계획시설 도로 및 주차장에 저촉된다고 직접 명시하고, 감정평가서 토지이용계획에서도 소로3류(저촉), 주차장(저촉)을 확인. 2026-09-23 09:55 입찰, 2회 유찰, 최저가 824,656,000원. 정확한 저촉 면적과 실제 사업시행·보상 여부는 광주광역시/남구 실시계획·세목조서 대조 전까지 확정하지 않음.",
+    "sourceUrl":"https://madangs.com/caview?m_code=5020250003102001",
+    "verifiedAt":"2026-09-14",
+    "expropriationVerified":false,
+    "rightsRiskLevel":"확인필요"
   }
 ]
