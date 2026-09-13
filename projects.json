@@ -421,5 +421,23 @@
     "appraisalNoticeUrl": "https://www.cbdc.co.kr/zboard/read.do?lmCode=BBSMSTR_000000000016&pageIndex=1&pd_pkid=7542",
     "boundaryStatus": "공식 경계 좌표 미확보 · 토지이용계획 이미지는 좌표 경계로 전용하지 않음",
     "checkedAt": "2026-09-13"
+  },
+  {
+    "id": "cheongju-jikji-industrial",
+    "name": "청주 직지 산업단지(구 청주 클래식 스마트밸리)",
+    "type": "산업단지",
+    "operator": "충북개발공사",
+    "location": "충청북도 청주시 청원구 정상동 일원",
+    "scale": "1,125,872㎡ (공사 사업안내 기준)",
+    "stage": "2025-07 산업단지계획 승인 · 2026-06-26 보상계획 게시글 확인",
+    "summary": "충북개발공사 사업안내의 새 명칭과 보상공고의 이전 명칭을 연결한 개발사업.",
+    "compensationSchedule": "2026-06-26 보상계획 공고 게시. 열람기간·실제 협의보상 착수 및 지급 미확인.",
+    "projectPeriod": "2019~2029년 (사업안내 기준)",
+    "constructionSchedule": "사업안내상 2026년 하반기 공사발주 예정 · 착공·준공 미확인",
+    "parcelNote": "공고 제2026-37호 HWP 첨부 내부 토지조서·경매 지번 대조 미완료.",
+    "officialUrl": "https://www.cbdc.co.kr/gnb01/lnb01/read.do",
+    "parcelSourceUrl": "https://www.cbdc.co.kr/zboard/read.do?lmCode=BBSMSTR_000000000016&pageIndex=1&pd_pkid=7564&searchCate1=&searchCnd=&searchWrd=",
+    "boundaryStatus": "공식 경계 좌표 미확보",
+    "checkedAt": "2026-09-13"
   }
 ]
