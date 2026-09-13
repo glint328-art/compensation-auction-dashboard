@@ -402,5 +402,24 @@
     "boundaryStatus": "공식 경계 좌표 미확보",
     "checkedAt": "2026-09-13",
     "verificationScope": "수성구 공식 PDF 본문 확인. 2024년 12월 공정률이 기재된 과거 현황이며 2026년 현재 진행률로 전용하지 않음."
+  },
+  {
+    "id": "ochang-fifth-industrial",
+    "name": "오창 제5 산업단지(구 오창 나노테크 스마트밸리)",
+    "type": "산업단지",
+    "operator": "충북개발공사",
+    "location": "충청북도 청주시 청원구 오창읍 백현리 일원",
+    "scale": "1,612,466㎡ (공사 사업안내 기준)",
+    "stage": "2024-12 산업단지계획 승인 · 2026-06 감정평가업자 선정계획 공고 확인",
+    "summary": "공식 사업안내의 현재 명칭과 보상공고의 이전 명칭을 연결. 경매 편입 및 보상권리 미검증.",
+    "compensationSchedule": "사업안내상 2026년 하반기 보상착수 예정·실제 착수 미확인. 보상현황 페이지의 2025년 예정표와 상이하여 실제 일정 추가 확인 필요.",
+    "projectPeriod": "2019~2029년 (사업안내 기준)",
+    "constructionSchedule": "2027년 하반기 공사발주 예정 · 착공·준공 실제 일정 미확인",
+    "parcelNote": "2026-01 보상공고에 토지·물건조서 XLSX 첨부 존재. 실제 행·편입면적 및 경매 대조 미완료.",
+    "officialUrl": "https://www.cbdc.co.kr/gnb01/lnb01/read.do",
+    "parcelSourceUrl": "https://www.cbdc.co.kr/zboard/read.do?lmCode=BBSMSTR_000000000016&pageIndex=1&pd_pkid=7050",
+    "appraisalNoticeUrl": "https://www.cbdc.co.kr/zboard/read.do?lmCode=BBSMSTR_000000000016&pageIndex=1&pd_pkid=7542",
+    "boundaryStatus": "공식 경계 좌표 미확보 · 토지이용계획 이미지는 좌표 경계로 전용하지 않음",
+    "checkedAt": "2026-09-13"
   }
 ]
