@@ -436,6 +436,21 @@
         "인곡산업단지 진입도로2026-020호 상세",
         "오창 조서의 청주시 공식 PDF/HTML 대체본 확보"
       ]
+    },
+    {
+      "checkedAt": "2026-09-13",
+      "scope": "충북 보상목록1/14 및 직지산단7564 상세",
+      "sourceUrl": "https://www.cbdc.co.kr/zboard/read.do?lmCode=BBSMSTR_000000000016&pageIndex=1&pd_pkid=7564&searchCate1=&searchCnd=&searchWrd=",
+      "result": "공고 제2026-37호·2026-06-26 게시글과 HWP 첨부 존재 확인. 공식 사업안내와 명칭 연결해 사업 등록. 첨부 조서 미열람·경계 미확보.",
+      "newProjectCount": 1,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "인곡산업단지 진입도로2026-020호",
+        "청주 그린스마트밸리 진입도로2026-08-24 공시송달",
+        "직지산단 고시·조서 PDF 대체본"
+      ],
+      "deploymentCheck": "GitHub 저장 완료·이번 Pages 배포 완료 별도 미확인"
     }
   ]
 }
