@@ -421,6 +421,21 @@
         "인곡산업단지 진입도로2026-020호·산단 본체와 분리"
       ],
       "deploymentCheck": "GitHub 저장 완료. 이번 변경 Pages 배포 완료 별도 미확인"
+    },
+    {
+      "checkedAt": "2026-09-13",
+      "scope": "오창 제5(구 나노테크 스마트밸리) 보상공고 첨부 확인",
+      "sourceUrl": "https://www.cbdc.co.kr/zboard/read.do?lmCode=BBSMSTR_000000000016&pageIndex=1&pd_pkid=7050&searchCate1=&searchCnd=&searchWrd=",
+      "result": "공식 상세 본문과 HWP·토지물건조서 XLSX 링크 확인. 두 다운로드 모두 웹 파서가 application/x-msdownload 미지원으로 거부하여 실제 조서 미열람. 필지 확정·경계 추가 없음.",
+      "parcelDownloadUrl": "https://www.cbdc.co.kr/zboard/printFileDown.do?atchFileId=FILE_000100000021526&fileSn=1&lmCode=BBSMSTR_000000000016",
+      "newProjectCount": 0,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "청주 직지(구 클래식)2026-06-26 보상공고 상세",
+        "인곡산업단지 진입도로2026-020호 상세",
+        "오창 조서의 청주시 공식 PDF/HTML 대체본 확보"
+      ]
     }
   ]
 }
