@@ -1,0 +1,15 @@
+{
+  "id": "yeongam-gyodong-soro1-candidate",
+  "name": "영암읍 교동리 소로1류 도시계획시설 후보",
+  "type": "도시계획도로",
+  "region": "전라남도 영암군 영암읍 교동리",
+  "status": "공식사업확인중",
+  "confirm": "부분확인",
+  "inclusionType": "편입범위확인중",
+  "evidence": "경매마당 2026타경50193의 공고문·매각물건명세서 및 감정평가서 토지이용계획에서 교동리 417-2가 소로1류(폭 10m~12m)에 저촉되는 사실 확인.",
+  "parcelCheck": "교동리 417-2",
+  "officialNoticeCheck": "이번 회차 공개 검색에서 해당 지번과 직접 대조되는 실시계획인가·사업인정·토지세목조서·보상계획을 확인하지 못함.",
+  "compensationStatus": "미확인",
+  "sourceUrl": "https://madangs.com/caview?m_code=5120260050193001",
+  "verifiedAt": "2026-09-14"
+}
