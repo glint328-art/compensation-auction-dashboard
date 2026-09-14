@@ -1,0 +1,22 @@
+{
+  "id": "2025-30511-1",
+  "caseNo": "2025타경30511",
+  "court": "춘천지방법원 강릉지원",
+  "status": "진행",
+  "address": "강원특별자치도 삼척시 가곡면 풍곡리 579-1 외 11필지",
+  "area": "총 6,083㎡",
+  "appraisal": 288012000,
+  "minimum": 98788000,
+  "bidDate": "2026-10-06",
+  "failedCount": 3,
+  "confirm": "부분확인",
+  "inclusionType": "일부편입",
+  "partialArea": null,
+  "residualArea": null,
+  "sourceUrl": "https://madangs.com/caview?m_code=1720250030511001",
+  "triggerPhrase": "목록5 도시계획시설 도로 저촉 및 접도구역. 감정평가서상 기호3,4,5,8 소로1류 저촉, 기호10·11 도로구역.",
+  "verificationNote": "경매자료상 일부 필지의 도시계획시설 도로 저촉 및 도로구역은 확인됨. 현재 유효한 실시계획·세목조서에서 해당 지번의 미보상 편입면적은 이번 점검에서 확인하지 못해 보상확정으로 분류하지 않음.",
+  "rightsRiskLevel": "높음",
+  "rightsAnalysis": "공유물분할 형식적경매. 일부 필지 농지취득자격증명 필요. 매각제외 미등기 건물 존재, 법정지상권 성립 여부 불분명, 지적경계 불분명.",
+  "verifiedAt": "2026-09-15"
+}
