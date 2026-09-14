@@ -480,6 +480,20 @@
         "청주시 그린스마트밸리 진입도로 공시송달 대체본",
         "기존 경매 후보의 최근 기일·낙찰 결과 재검증"
       ]
+    },
+    {
+      "checkedAt": "2026-09-14",
+      "scope": "2025타경3867-1 당일 매각결과 재검증",
+      "sourceUrl": "https://madangs.com/caview?m_code=3820250003867001",
+      "result": "공개 페이지는 전일 수집본으로 2026-09-14 진행·D-1 표기가 남아 있음. 당일 낙찰·유찰 결과를 확인할 수 없어 status·soldPrice·verifiedAt 유지. 최저가를 낙찰가로 전용하지 않음.",
+      "newProjectCount": 0,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "2025타경3867-1 최신 기일결과 및 2025타경676-1 당일 결과",
+        "충북 보상공고2/14페이지",
+        "포항 세계리698 도로 실시계획·세목 대조"
+      ]
     }
   ]
 }
