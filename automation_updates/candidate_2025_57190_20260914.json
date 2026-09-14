@@ -1,0 +1,23 @@
+{
+  "id": "2025타경57190-1",
+  "region": "수도권",
+  "court": "수원지방법원 본원",
+  "caseNo": "2025타경57190",
+  "status": "진행",
+  "address": "경기도 용인시 처인구 역북동 358-27",
+  "land": "전",
+  "area": "165㎡",
+  "appraisal": 269890000,
+  "minimum": 188923000,
+  "bidDate": "2026-09-15",
+  "failedCount": 1,
+  "projectId": "yongin-yeoksam",
+  "confirm": "확인",
+  "inclusionType": "전부편입",
+  "note": "경매마당 공고문과 매각물건명세서에 대상 지번이 용인역삼구역 도시개발사업에 포함되고 금전청산 대상이라고 기재되어 있음. 환지예정지 권리면적은 68.5㎡.",
+  "sourceUrl": "https://madangs.com/caview?m_code=1020250057190001",
+  "verifiedAt": "2026-09-14",
+  "sourcePhrase": "용인역삼구역도시개발사업지구내 편입된 토지로서 금전청산 대상지",
+  "officialParcelSource": "https://www.yongin.go.kr/home/www/www09/www09_02/www09_02_02/www09_02_02_08.jsp",
+  "expropriationVerified": true
+}
