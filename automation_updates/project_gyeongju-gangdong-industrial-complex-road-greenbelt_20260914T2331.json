@@ -1,0 +1,12 @@
+{
+  "id": "gyeongju-gangdong-industrial-complex-road-greenbelt",
+  "name": "경주 강동일반산업단지 도로·완충녹지 편입 검증",
+  "region": "경상북도 경주시 강동면 왕신리",
+  "projectType": "일반산업단지/도시계획시설",
+  "status": "편입검증중",
+  "officialBasis": "경주 강동일반산업단지 계획(변경) 승인 고시(경주시 고시 제2026-110호)",
+  "officialSourceUrl": "https://gunsul.gb.go.kr/Main/page.do?BD_CODE=gosi_notice&B_LEVEL=0&B_NUM=507794501&B_STEP=507794500&Start=200&V_NUM=17012&bdName=&cmd=2&dept_code=&dept_name=&key=4&mnu_uid=6742&p1=0&p2=0&tbbscode1=gosi_notice&word=",
+  "candidateParcel": "왕신리 산 38-3 외 1필지",
+  "verification": "경매마당 감정평가서에서 소로1류 및 완충녹지 저촉 확인. 최신 산업단지 계획도·세목조서에서 정확한 편입면적 및 미보상 여부 추가 확인 필요.",
+  "updatedAt": "2026-09-14T23:31:00+09:00"
+}
