@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13",
+  "updatedAt": "2026-09-14",
   "purpose": "전국 수용·협의취득 보상 대상 토지와 경매·공매 지번 대조",
   "coverageComplete": false,
   "automatedCollectionImplemented": false,
@@ -451,6 +451,21 @@
         "직지산단 고시·조서 PDF 대체본"
       ],
       "deploymentCheck": "GitHub 저장 완료·이번 Pages 배포 완료 별도 미확인"
+    },
+    {
+      "checkedAt": "2026-09-14",
+      "scope": "인곡산업단지 진입도로 공고 제2026-020호",
+      "sourceUrl": "https://www.cbdc.co.kr/zboard/read.do?lmCode=BBSMSTR_000000000018&pageIndex=1&pd_pkid=7299&searchCate1=&searchCnd=&searchWrd=",
+      "result": "2026-04-03 공식 상세 게시글 및 토지조서 XLSX 링크 확인. XLSX 열람은 Cache miss로 실패. 산단 본체 및 폐수처리시설과 별개 도로사업으로 구분, 편입지번·좌표·보상일정 미검증.",
+      "parcelDownloadUrl": "https://www.cbdc.co.kr/zboard/printFileDown.do?atchFileId=FILE_000100000021718&fileSn=2&lmCode=BBSMSTR_000000000018",
+      "newProjectCount": 0,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "청주 그린스마트밸리 진입도로2026-08-24 공시송달",
+        "인곡 진입도로 음성군 공식 조서 대체본",
+        "충북 보상공고 2/14페이지"
+      ]
     }
   ]
 }
