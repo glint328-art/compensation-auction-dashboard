@@ -1,0 +1,12 @@
+{
+  "id": "yeongcheon-yasa-land-readjustment",
+  "name": "영천 야사지구 토지구획정리사업",
+  "region": "경상북도 영천시 야사동 일원",
+  "type": "토지구획정리/환지",
+  "status": "사업진행·환지처분 전",
+  "officialSource": "https://www.yc.go.kr/portal/saeol/gosi/view.do?mId=0301040000&notAncmtMgtNo=39101",
+  "officialNotice": "영천시 공고 제2025-699호, 2025-04-28 영천 야사지구 토지구획정리사업 사업계획변경 인가 공고",
+  "compensationType": "강제수용 보상형이 아니라 환지방식. 환지 과부족에 따른 청산금 가능",
+  "note": "경매마당 2025타경9393[2] 공고·명세서에 환지예정지 지정증명원 확인 및 공사 준공 후 환지처분 단계에서 청산금 정산 예정이라고 명시됨. 기반시설 준공일정은 지연 중으로 기재.",
+  "checkedAt": "2026-09-15"
+}
