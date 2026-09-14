@@ -1,0 +1,22 @@
+{
+  "caseNo": "2025타경344",
+  "court": "대구지방법원 김천지원",
+  "address": "경상북도 구미시 산동읍 적림리 431-1",
+  "bidDate": "2026-10-07",
+  "status": "진행",
+  "land": "답 331㎡",
+  "appraisal": 137696000,
+  "minimum": 137696000,
+  "failedCount": 4,
+  "confirm": "부분확인",
+  "inclusionType": "편입범위확인중",
+  "triggerPhrase": "소로1류(폭 10m~12m)(저촉)",
+  "sourceUrl": "https://madangs.com/caview?m_code=3420250000344001",
+  "note": "경매마당 감정평가서 요약에서 도시계획도로 저촉 확인. 공식 실시계획·세목조서상 편입면적과 보상 진행 여부는 미확인. 2026-08-05 매각 후 최고가매각불허가결정 이력이 있고 2026-10-07 재매각 예정으로 확인됨.",
+  "rightsRiskLevel": "높음",
+  "specialRisks": ["맹지", "농지취득자격증명", "원상회복명령 가능성", "지상권자 표시", "재매각"],
+  "comparableSales": [],
+  "comparableSalesStatus": "실거래 표본부족",
+  "recommendedBidTarget": null,
+  "verifiedAt": "2026-09-15"
+}
