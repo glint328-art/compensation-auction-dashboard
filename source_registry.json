@@ -466,6 +466,20 @@
         "인곡 진입도로 음성군 공식 조서 대체본",
         "충북 보상공고 2/14페이지"
       ]
+    },
+    {
+      "checkedAt": "2026-09-14",
+      "scope": "청주 그린스마트밸리 진입도로 공시송달 후속",
+      "sourceUrl": "https://www.cbdc.co.kr/zboard/read.do?lmCode=BBSMSTR_000000000016&pageIndex=1&pd_pkid=7743&searchCate1=&searchCnd=&searchWrd=",
+      "result": "공식 목록에서 2026-08-24 게시 및 상세 식별자7743 확인. 상세 열람 Cache miss로 공시송달 대상필지 미확보. 검색된 공사입찰 낙찰정보는 부동산 경매 낙찰가와 구분하여 사용하지 않음.",
+      "newProjectCount": 0,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "충북 보상공고2/14페이지",
+        "청주시 그린스마트밸리 진입도로 공시송달 대체본",
+        "기존 경매 후보의 최근 기일·낙찰 결과 재검증"
+      ]
     }
   ]
 }
