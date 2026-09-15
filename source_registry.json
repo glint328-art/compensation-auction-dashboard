@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-15",
   "purpose": "전국 수용·협의취득 보상 대상 토지와 경매·공매 지번 대조",
   "coverageComplete": false,
   "automatedCollectionImplemented": false,
@@ -493,6 +493,28 @@
         "2025타경3867-1 최신 기일결과 및 2025타경676-1 당일 결과",
         "충북 보상공고2/14페이지",
         "포항 세계리698 도로 실시계획·세목 대조"
+      ]
+    },
+    {
+      "checkedAt": "2026-09-15",
+      "scope": "인천구월2 공식 경계 대체 자료 탐색 및 유사 명칭 구분",
+      "sources": [
+        {
+          "url": "https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=638319",
+          "result": "본문 확인: 2026-164호는 구월동1243-17 일원 구월2동(용천) 주거환경개선사업. 인천구월2 공공주택지구와 별개로 경계·보상 정보를 전용하지 않음."
+        },
+        {
+          "url": "https://www.yeonsu.go.kr/UpFiles/board_111/%28%EB%B6%99%EC%9E%842%29%ED%99%98%EA%B2%BD%EC%98%81%ED%96%A5%ED%8F%89%EA%B0%80%EC%84%9C%28%EC%B4%88%EC%95%88%29%2C_%EA%B8%B0%ED%9B%84%EB%B3%80%ED%99%94%EC%98%81%ED%96%A5%ED%8F%89%EA%B0%80%28%EC%B4%88%EC%95%88%29_%EC%9A%94%EC%95%BD%EB%AC%B8%28%EC%9D%B8%EC%B2%9C%EA%B5%AC%EC%9B%942%29.pdf",
+          "result": "공식 환경·기후영향평가 초안 요약문 검색결과 확보. PDF 12369208바이트로 웹 도구 크기제한 열람 실패. 내부 경계좌표 미검증."
+        }
+      ],
+      "newProjectCount": 0,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "인천구월2 국토부2023-603호 원문과 최신 변경고시의 경계 좌표",
+        "구월2동(용천) 별개 정비사업의 시행자·사업방식·보상 여부",
+        "충북 보상목록2페이지 미열람분은 대체 공식 출처로 조사"
       ]
     }
   ]
