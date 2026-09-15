@@ -582,6 +582,20 @@
         "GBDC 지도 공개 좌표 제공 방식 확인"
       ],
       "followUpSourceUrl": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b3e75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1=notice&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=56d9eceb-b2c4-44ed-81a5-d0ed87995f31&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&SEARCH_KEYWORD=&seqId=0000003653"
+    },
+    {
+      "checkedAt": "2026-09-15",
+      "scope": "경북도청신도시 대(집)2-4진입로 위치 대조",
+      "sourceUrl": "https://www.andong.go.kr/portal/saeol/gosi/view.do?isLinkage=Y&mId=0401020100&notAncmtMgtNo=63648",
+      "result": "안동시2026-196호(2026-06-19) 본문에서 가곡리 일원과 경북개발공사 시행 확인. 기존 공사2026-085호 보상공고와 대조해 별도 도로사업 등록. 출입허가를 보상확정으로 해석하지 않음. 안동시63817은 검색결과 외 실제 공고본문 미확인.",
+      "newProjectCount": 1,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "대(집)2-4진입로 토지조서·사업기간·노선좌표",
+        "청려도원2026-06-01 보상공고·사업개요"
+      ],
+      "deploymentCheck": "GitHub 저장 완료·이번 Pages 배포 완료 별도 미확인"
     }
   ]
 }
