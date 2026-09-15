@@ -549,6 +549,24 @@
         "경상북도개발공사 지도로 보는 사업안내의 공식 경계 제공 여부"
       ],
       "deploymentCheck": "GitHub 저장 완료; 이번 변경 Pages 배포는 별도 확인 대상"
+    },
+    {
+      "checkedAt": "2026-09-15",
+      "scope": "진량 하이패스IC 도로구역 고시 원문 탐색",
+      "sourceUrl": "https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=611506",
+      "result": "공식 검색문서에서 국토교통부2025-274호(2025-06-02) 및 273KB PDF 첨부 확인. 국토부 원문264048 열람은 도구 오류로 실패. 토지조서 내부와 좌표를 확보하지 못해 경계·필지 편입 상태 유지. 안심 하이패스IC2026-229호는 별개 사업으로 구분.",
+      "newProjectCount": 0,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "deploymentCheck": {
+        "commit": "657f1a9c1d8ecc3e0d6fade3de3c0442cb4a8c3d",
+        "result": "진량IC 신규 등록을 포함한 GitHub Pages workflow completed/success 확인. 실시간 브라우저 별도 미검증."
+      },
+      "nextTargets": [
+        "경상북도개발공사 지도로 보는 사업안내 경계 제공 확인",
+        "진량IC 국토부2025-274호 PDF 대체 공식 게시처",
+        "대산-당진 보상공고 서산시 대체 게시처"
+      ]
     }
   ]
 }
