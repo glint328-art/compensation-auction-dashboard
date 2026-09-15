@@ -1,0 +1,19 @@
+{
+  "caseNo": "2025타경71674",
+  "court": "의정부지방법원 남양주지원",
+  "address": "경기도 가평군 청평면 대성리 361-18 외 다수필지",
+  "auctionDate": "2026-10-01 10:30",
+  "status": "진행",
+  "failedCount": 1,
+  "appraisalPrice": 1844423000,
+  "minimumPrice": 1291096000,
+  "landArea": 10564,
+  "confirm": "부분확인",
+  "inclusionType": "일부편입",
+  "partialArea": null,
+  "residualArea": null,
+  "compensationBasis": "경매마당 매각물건명세서 및 감정평가서상 목록3 대성리 361-30 일부가 소하천에 포함됨. 정확한 소하천구역/편입면적 및 보상 여부는 공식 고시·세목조서 추가 확인 필요.",
+  "sourceUrl": "https://madangs.com/caview?m_code=6120250071674001",
+  "priority": "D-15 선제검증",
+  "checkedAt": "2026-09-16"
+}
