@@ -567,6 +567,21 @@
         "진량IC 국토부2025-274호 PDF 대체 공식 게시처",
         "대산-당진 보상공고 서산시 대체 게시처"
       ]
+    },
+    {
+      "checkedAt": "2026-09-15",
+      "scope": "경상북도개발공사 지도 사업안내 공개 범위 조사",
+      "sourceUrl": "https://www.gbdc.co.kr/home/businessGuideMap/mapView.do?isRental=Y&seqId=0000003934",
+      "result": "사업안내 페이지의 공고목록 본문 확보. 웹 텍스트에서는 공식 경계 좌표·다운로드 링크를 확보하지 못했으며 지도에 경계가 없다고 단정하지 않음. 지방도914호선 경북도청신도시 대(집)2-4 진입로 2026-085호(2026-06-30) 상세 본문 확인, 조서·규모·세부 위치는 후속 조사 대상.",
+      "newProjectCount": 0,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "경북도청신도시 대(집)2-4진입로2026-085호 첨부·세부 위치·사업기간",
+        "청려도원2026-06-01 보상계획 상세 및 공식 사업개요",
+        "GBDC 지도 공개 좌표 제공 방식 확인"
+      ],
+      "followUpSourceUrl": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b3e75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1=notice&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=56d9eceb-b2c4-44ed-81a5-d0ed87995f31&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&SEARCH_KEYWORD=&seqId=0000003653"
     }
   ]
 }
