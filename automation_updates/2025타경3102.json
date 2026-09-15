@@ -1,0 +1,20 @@
+{
+  "caseNo": "2025타경3102",
+  "court": "광주지방법원 본원",
+  "address": "광주광역시 남구 승촌동 765",
+  "auctionDate": "2026-09-23 09:55",
+  "status": "진행",
+  "failedCount": 2,
+  "appraisalPrice": 1472600000,
+  "minimumPrice": 824656000,
+  "landArea": 1990,
+  "landUse": "답(현황 주거나지)",
+  "confirm": "부분확인",
+  "inclusionType": "편입범위확인중",
+  "partialArea": null,
+  "residualArea": null,
+  "compensationBasis": "경매마당 매각공고·매각물건명세서에 도시계획시설 도로 및 주차장 저촉 명시. 감정평가서 토지이용계획상 소로3류(저촉), 주차장(저촉). 현재 시행사업 실시계획/토지세목조서와 지번 편입면적은 미확인.",
+  "risk": "농지취득자격증명 필요, 원상회복명령 가능성, 지상 농업용 비닐하우스 매각 제외",
+  "sourceUrl": "https://madangs.com/caview?m_code=5020250003102001",
+  "checkedAt": "2026-09-16"
+}
