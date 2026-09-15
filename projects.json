@@ -86,7 +86,11 @@
     "projectOverviewSourceUrl": "https://www.ih.co.kr/main/business/development.jsp",
     "designationSourceUrl": "https://www.yeonsu.go.kr/main/community/notify/gosi_other.asp?page=v&seq=1975",
     "designationNotice": "국토교통부 고시 제2023-603호 (2023-10-30)",
-    "overviewCheckedAt": "2026-09-12"
+    "overviewCheckedAt": "2026-09-12",
+    "planApprovalNotice": "국토교통부 고시 제2025-845호 (2025-12-31) · 지구지정 변경(1차) 및 지구계획 승인",
+    "planApprovalSourceUrl": "https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=629434",
+    "boundaryNote": "2025-12-31 변경 지형도면 PDF 게시 확인. 도면 내부 경계 좌표 미검증·이후 변경고시 유무 미확인.",
+    "planApprovalCheckedAt": "2026-09-15"
   },
   {
     "id": "paju-beobwon1",
