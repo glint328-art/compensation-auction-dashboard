@@ -455,5 +455,23 @@
     "officialUrl": "https://www.eum.go.kr/",
     "parcelNote": "전체 992㎡ 중 일부 도로 저촉. 정확한 편입면적과 잔여면적은 공식 세목조서·측량자료 미확인으로 산정 보류.",
     "checkedAt": "2026-09-13"
+  },
+  {
+    "id": "gyeongbu-jinryang-hipass-ic",
+    "name": "경부선 진량 하이패스IC 설치공사",
+    "type": "도로·IC",
+    "operator": "한국도로공사 (보상업무 수탁: 경상북도개발공사)",
+    "location": "경부선 진량 하이패스IC 설치구간 · 세부 위치·편입지번 미확인",
+    "stage": "2025-08-26 보상계획 공고 확인 · 현재 보상 진행률 미확인",
+    "summary": "경상북도개발공사 공고 제2025-090호. 공개 토지·물건조서 첨부가 있으나 필지별 대조는 미완료.",
+    "scale": "미확인",
+    "compensationSchedule": "2025-08-26 보상계획 공고 · 지급 착수·완료 및 현재 협의 일정 미확인",
+    "projectPeriod": "미확인",
+    "constructionSchedule": "착공·준공·개통일 미확인",
+    "parcelNote": "토지조서 PDF 270.07KB·물건조서 PDF 230.82KB 첨부 목록 확인. 내부 지번 미열람, 경매물건 편입·매수인 보상권리 미검증.",
+    "officialUrl": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b3e75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1=&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=91cdf957-8728-4351-ab66-b8733b97d43d&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&SEARCH_KEYWORD=&seqId=0000003653",
+    "parcelSourceUrl": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b3e75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1=&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=91cdf957-8728-4351-ab66-b8733b97d43d&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&SEARCH_KEYWORD=&seqId=0000003653",
+    "checkedAt": "2026-09-15",
+    "boundaryStatus": "공식 경계 좌표 미확보"
   }
 ]
