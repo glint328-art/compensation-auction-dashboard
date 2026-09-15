@@ -534,6 +534,21 @@
         "지역 순환: 한국도로공사 보상공고 및 노선 경계"
       ],
       "deploymentCheck": "프로젝트 GitHub 저장 완료. 이번 실행의 Pages 배포 완료 별도 미확인"
+    },
+    {
+      "checkedAt": "2026-09-15",
+      "scope": "한국도로공사 도로·IC 보상공고 순환 조사",
+      "sourceUrl": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b3e75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1=&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=91cdf957-8728-4351-ab66-b8733b97d43d&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&SEARCH_KEYWORD=&seqId=0000003653",
+      "result": "진량 하이패스IC 공고 본문 확인, 시행자·수탁기관을 구분해 신규 개발사업 등록. 게시일2025-08-26과 사이트 최종수정일2026-02-11을 구분. 첨부 조서 내부 미열람·경계 미확보. 대산-당진 서산시332199 공고는 상세 Cache miss.",
+      "newProjectCount": 1,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "진량 하이패스IC 토지조서 PDF와 최신 도로구역 고시",
+        "대산-당진 고속도로2026-02-19 보상공고 대체 게시처",
+        "경상북도개발공사 지도로 보는 사업안내의 공식 경계 제공 여부"
+      ],
+      "deploymentCheck": "GitHub 저장 완료; 이번 변경 Pages 배포는 별도 확인 대상"
     }
   ]
 }
