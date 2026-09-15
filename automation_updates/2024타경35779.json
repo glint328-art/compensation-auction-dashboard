@@ -1,0 +1,19 @@
+{
+  "caseNo": "2024타경35779",
+  "court": "제주지방법원 본원",
+  "address": "제주특별자치도 서귀포시 대정읍 무릉리 3530-1 외 4필지",
+  "auctionDate": "2026-09-22T10:00:00+09:00",
+  "status": "진행",
+  "appraisalPrice": 2444156000,
+  "minimumPrice": 586842000,
+  "failedCount": 7,
+  "landArea": 8912,
+  "confirm": "부분확인",
+  "inclusionType": "일부편입",
+  "partialArea": null,
+  "residualArea": null,
+  "basis": "목록2 무릉리 4039-2가 도로구역<도로법>에 포함되고 매각물건명세서에 일부 도로구역 저촉 명시. 공식 보상계획/토지세목조서 및 보상완료 여부는 추가 확인 필요.",
+  "residualLandReview": "편입면적 미확정으로 잔여지 보상·매수청구 가능성 확인중",
+  "sourceUrl": "https://madangs.com/caview?m_code=5920240035779001",
+  "checkedAt": "2026-09-16T04:38:27+09:00"
+}
