@@ -1,0 +1,25 @@
+{
+  "caseNo": "2025타경589",
+  "court": "대구지방법원 경주지원",
+  "address": "경상북도 경주시 양남면 상계리 산12",
+  "auctionDate": "2026-09-29 10:00",
+  "status": "진행",
+  "appraisalPrice": 235642000,
+  "minimumPrice": 56578000,
+  "failedCount": 4,
+  "landArea": 10710.75,
+  "project": "경주 양남일반산업단지 개발사업",
+  "inclusionType": "편입범위확인중",
+  "confirm": "부분확인",
+  "partialArea": null,
+  "residualArea": null,
+  "compensationNote": "경매 토지 지번 산12는 양남일반산업단지 사업 위치의 대표 지번이며, 2015년 공식 보상계획 열람공고 및 2017년 보상협의 공시송달 자료에서 산12가 확인된다. 다만 2022-07-11 기존 사업시행자 지정이 취소됐고 2023년 신규 민간 사업시행자 공모가 진행되어 현재 보상 집행 주체·미보상 면적·재개 여부를 추가 확인해야 한다. 2026-08-31 경주시 자료에서도 양남일반산업단지를 동경주 미래산업 기반의 주요 산업단지로 언급한다.",
+  "sourceUrl": "https://madangs.com/caview?m_code=3320250000589001",
+  "officialSources": [
+    "https://www.gyeongju.go.kr/open_content/ko/page.do?mnu_uid=423&pageNo=960&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=62107&parm_mnu_uid=0&srchBgpUid=-1&srchColumn=&srchEDate=&srchEnable=1&srchKeyword=&srchSDate=&srchVoteType=-1&step=258",
+    "https://www.gyeongju.go.kr/open_content/ko/page.do?mnu_uid=423&pageNo=1&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=117726&parm_mnu_uid=0&srchBgpUid=-1&srchColumn=&srchEDate=&srchEnable=1&srchKeyword=&srchSDate=&srchVoteType=-1&step=258",
+    "https://gyeongju.go.kr/open_content/ko/page.do?mnu_uid=423&pageNo=1&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=260503&parm_mnu_uid=0&srchBgpUid=-1&srchColumn=&srchEDate=&srchEnable=1&srchKeyword=&srchSDate=&srchVoteType=-1&step=258"
+  ],
+  "risk": "사업시행자 지정 취소 이력으로 현재 수용·보상 시점 불확실. 맹지·경사지 자연림이며 보전산지/임업용산지 포함. 산업단지·공공시설구역, 완충녹지 및 중로1류 저촉은 확인됨.",
+  "updatedAt": "2026-09-16"
+}
