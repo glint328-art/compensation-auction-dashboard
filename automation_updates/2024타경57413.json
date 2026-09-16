@@ -1,0 +1,20 @@
+{
+  "caseNo": "2024타경57413",
+  "court": "대전지방법원 서산지원",
+  "address": "충청남도 서산시 운산면 고산리 333-3 외 52필지",
+  "auctionDate": "2026-09-22 10:00",
+  "status": "진행",
+  "failedCount": 6,
+  "appraisalPrice": 2633746500,
+  "minimumPrice": 309858000,
+  "landAreaShare": 19623.89,
+  "landUse": "운산고산지구 지구단위계획 내 공업용지·도로·녹지·오폐수처리시설 등",
+  "confirm": "부분확인",
+  "inclusionType": "일부편입",
+  "partialArea": null,
+  "residualArea": null,
+  "compensationBasis": "경매마당 감정평가서상 기호14·15·16·52가 중로1류 및 도로구역(지방도609호)에 해당하고, 본건 일부를 포함해 지방도609호가 통과한다고 명시. 다수 목록은 현황 포장도로. 현재 공식 도로구역 토지세목조서 및 과거 보상 지급 여부는 미확인.",
+  "risk": "지분매각, 농지취득자격증명 필요 목록 존재, 53필지 일괄매각, 현황 도로·녹지·오폐수처리시설·공업나지 혼재. 도로구역 부분의 미보상 여부 확인 필요",
+  "sourceUrl": "https://madangs.com/caview?from=search_list&m_code=3020240057413001",
+  "checkedAt": "2026-09-16"
+}
