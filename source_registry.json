@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-09-16",
   "purpose": "전국 수용·협의취득 보상 대상 토지와 경매·공매 지번 대조",
   "coverageComplete": false,
   "automatedCollectionImplemented": false,
@@ -596,6 +596,29 @@
         "청려도원2026-06-01 보상공고·사업개요"
       ],
       "deploymentCheck": "GitHub 저장 완료·이번 Pages 배포 완료 별도 미확인"
+    },
+    {
+      "checkedAt": "2026-09-16",
+      "scope": "경북개발공사 청려도원 지역활력타운 보상계획",
+      "sources": [
+        {
+          "url": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b3e75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=317ddd07-100b-4499-81b6-3ae48c0a8438&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&seqId=0000003653",
+          "result": "경북개발공사 공고 제2026-507호(2026-06-01) 본문과 토지기본조서 PDF 첨부 확인. 사업 시행기관·보상계획 단계 확인."
+        },
+        {
+          "url": "https://www.ndmi.go.kr/home/sub.do?menukey=6285&mode=view&no=1875663&page=336",
+          "result": "국립재난안전연구원 게시물 검색결과에서 청도군 화양읍 범곡리 860번지 일원 위치 확인."
+        }
+      ],
+      "newProjectCount": 1,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "청려도원 토지기본조서 PDF 내부 필지·면적 대조",
+        "청도군·경북개발공사 공식 경계 원본 및 최신 변경고시",
+        "경북권 공익사업 후속 보상공고"
+      ],
+      "deploymentCheck": "GitHub 저장 완료·이번 변경 Pages 배포 완료 별도 미확인"
     }
   ]
 }
