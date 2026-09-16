@@ -1,0 +1,39 @@
+{
+  "caseNumber": "2025타경10798",
+  "court": "대구지방법원 경주지원",
+  "address": "경상북도 경주시 효현동 1110-1",
+  "category": "답",
+  "landAreaM2": 3013,
+  "landAreaPyeong": 911.43,
+  "appraisal": 732159000,
+  "minimumBid": 175792000,
+  "auctionDate": "2026-10-13T10:00:00+09:00",
+  "status": "진행",
+  "failedAuctions": 4,
+  "confirm": "부분확인",
+  "inclusionType": "일부편입",
+  "compensationBasis": [
+    "경매마당 감정평가서 요약: 하천(2021-07-08)(저촉), 하천구역",
+    "감정평가서상 하천 저촉은 극히 일부라고 명시"
+  ],
+  "rights": {
+    "baseRightDate": "2017-10-17",
+    "baseRight": "근저당권",
+    "tenant": "조사된 임차내역 없음",
+    "farmlandCertificateRequired": true
+  },
+  "priceAnalysis": {
+    "appraisalPerPyeong": 803308,
+    "minimumBidPerPyeong": 192875,
+    "minimumToAppraisalRatio": 0.2401
+  },
+  "verificationNeeded": [
+    "효현동 1110-1의 하천명 특정",
+    "2021-07-08 하천구역 결정·변경고시 원문 확인",
+    "토지세목조서 및 정확한 편입면적 확인",
+    "기보상·공탁·수용재결 여부 확인",
+    "편입면적 확인 후 예상보상액 대비 적정입찰가 산정"
+  ],
+  "source": "https://madangs.com/caview?m_code=3320250010798001",
+  "updatedAt": "2026-09-16"
+}
