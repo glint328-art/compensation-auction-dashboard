@@ -619,6 +619,32 @@
         "경북권 공익사업 후속 보상공고"
       ],
       "deploymentCheck": "GitHub 저장 완료·이번 변경 Pages 배포 완료 별도 미확인"
+    },
+    {
+      "checkedAt": "2026-09-16",
+      "scope": "청려도원 실시계획 승인·보상공고 후속 대조",
+      "sources": [
+        {
+          "url": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b3e75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=e24929b8-4d2b-4f11-8f9e-c98625b8ab9d&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&seqId=0000003653",
+          "result": "경상북도 고시 제2025-420호(2025-11-03) 실시계획 승인·고시 확인."
+        },
+        {
+          "url": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b3e75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=317ddd07-100b-4499-81b6-3ae48c0a8438&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&seqId=0000003653",
+          "result": "2026-06-01 청도군 공고2026-507호 보상계획·토지기본조서 첨부 확인 재확인."
+        }
+      ],
+      "updatedProjectIds": [
+        "cheongdo-cheongnyeodowon"
+      ],
+      "newProjectCount": 0,
+      "newBoundaryCount": 0,
+      "newVerifiedAuctionCount": 0,
+      "nextTargets": [
+        "청려도원 토지기본조서 실제 필지·면적 열람",
+        "실시계획 승인 도면의 공식 좌표",
+        "청도군 지역 공익사업 후속 보상공고"
+      ],
+      "deploymentCheck": "GitHub 저장 완료·이번 변경 Pages 배포 별도 미확인"
     }
   ]
 }
