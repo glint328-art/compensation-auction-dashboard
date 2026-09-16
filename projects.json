@@ -510,6 +510,9 @@
     "parcelSourceUrl": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b3e75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=317ddd07-100b-4499-81b6-3ae48c0a8438&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&seqId=0000003653",
     "locationSourceUrl": "https://www.ndmi.go.kr/home/sub.do?menukey=6285&mode=view&no=1875663&page=336",
     "checkedAt": "2026-09-16",
-    "boundaryStatus": "공식 경계 좌표 미확보"
+    "boundaryStatus": "공식 경계 좌표 미확보",
+    "implementationApprovalNotice": "경상북도 고시 제2025-420호 (2025-11-03) 실시계획 승인·고시",
+    "implementationApprovalSourceUrl": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b5b75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=e24929b8-4d2b-4f11-8f9e-c98625b8ab9d&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&seqId=0000003653",
+    "implementationApprovalCheckedAt": "2026-09-16"
   }
 ]
