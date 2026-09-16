@@ -1,0 +1,41 @@
+{
+  "case_no": "2025타경10312",
+  "court": "창원지방법원 거창지원",
+  "address": "경상남도 거창군 가북면 용암리 500 외 1필지",
+  "related_parcels": ["용암리 500", "용암리 761"],
+  "auction_date": "2026-10-16 10:00",
+  "discovered_date": "2026-09-17",
+  "days_to_auction_at_discovery": 29,
+  "land_area_sqm": 1296,
+  "building_area_sqm": 270,
+  "appraisal_price_krw": 82826000,
+  "minimum_price_krw": 28410000,
+  "minimum_to_appraisal_pct": 34.30,
+  "status": "부분확인 / 가천천 하천구역 일부저촉",
+  "compensation_signal": {
+    "type": "하천구역",
+    "river": "가천천",
+    "evidence": "경매마당 매각공고 및 감정평가서 요약에서 목록2 토지 일부가 지방2급하천에 저촉되고 하천구역(가천천)으로 확인됨",
+    "strength": "medium"
+  },
+  "auction_notes": [
+    "일괄매각",
+    "목록1 농지취득자격증명 또는 비농지 사실증명 필요",
+    "목록2 일부 지방2급하천 및 가천천 하천구역 저촉",
+    "목록3 건물 일부가 용암리 501번지 타지상에 걸쳐 있어 측량 필요",
+    "토지 및 건물 일부는 동물관련시설(퇴비사) 용도"
+  ],
+  "rights_review": "공개 경매자료 기준 별도 인수권리 확정 전. 최신 매각물건명세서와 등기부 재검증 필요.",
+  "next_verification": [
+    "가천천 하천기본계획 및 하천구역 결정·변경고시 확인",
+    "용암리 500/761 중 목록2 정확한 지번 확정",
+    "토지세목조서 또는 편입도면으로 실제 편입면적 산출",
+    "협의보상·공탁·수용재결 및 기보상 여부 확인",
+    "편입면적 확인 후 예상 보상액 대비 적정 입찰가 계산",
+    "입찰 8~13일 전 기일·최저가·권리 재검증"
+  ],
+  "sources": [
+    "https://madangs.com/caview?m_code=4920250010312001",
+    "https://www.eum.go.kr/web/ar/lu/luLandDet.jsp?pnu=4888041025105000000"
+  ]
+}
