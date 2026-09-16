@@ -1,0 +1,47 @@
+{
+  "case_number": "2025타경72190",
+  "court": "의정부지방법원 남양주지원",
+  "address": "경기도 구리시 수택동 714-4",
+  "property_type": "잡종지",
+  "land_area_sqm": 94,
+  "land_area_pyeong": 28.43,
+  "appraisal_price_krw": 899580000,
+  "minimum_price_krw": 629706000,
+  "auction_date": "2026-10-14 10:30",
+  "failed_rounds": 1,
+  "discovery_date": "2026-09-17",
+  "days_to_auction": 27,
+  "status": "priority-review",
+  "compensation_classification": "수택2구역 재개발 정비구역 내 도시계획시설 도로 일부저촉",
+  "evidence": [
+    "경매마당 매각물건명세서: 중로1류 일부 저촉",
+    "해당 도로는 수택2구역 재개발사업 시행을 직접 목적으로 하는 도시계획시설이라고 명시",
+    "토지이용계획: 중로1류(2023-07-14)(저촉), 정비구역(2023-07-14)"
+  ],
+  "analysis": {
+    "minimum_price_per_pyeong_krw": 22149349,
+    "appraisal_price_per_pyeong_krw": 31641928,
+    "key_point": "단순 장기미집행 도로저촉이 아니라 재개발 정비구역 내부에서 정비사업 시행을 직접 목적으로 하는 도로라는 법원 명시가 있어 사업 연계성이 강함",
+    "caution": "정비구역 지정만으로 즉시 현금보상을 확정할 수 없음. 조합설립·사업시행계획인가·관리처분 단계 및 소유권/조합원 지위, 현금청산 요건을 별도 검증해야 함"
+  },
+  "rights_review": {
+    "auction_type": "임의경매",
+    "claim_amount_krw": 750205808,
+    "registered_parties_summary": "채무자겸소유자, 채권자, 근저당권자 확인",
+    "excluded_items": "지상 컨테이너 등 제시외 물건 매각 제외",
+    "next_check": "등기부 말소기준권리와 인수권리 원문 재검증"
+  },
+  "next_verification": [
+    "수택2구역 정비계획 및 정비구역 결정(변경) 고시 원문 확인",
+    "수택동 714-4 정비사업 편입 및 도로 계획선 면적 확인",
+    "사업시행계획인가 여부와 시행자/조합 현황 확인",
+    "토지 소유자의 조합원 지위 또는 현금청산 대상 여부 확인",
+    "도로 편입면적과 정비사업 종전자산평가/보상 구조 확인",
+    "인근 실거래 및 정비구역 내 토지 거래사례 비교",
+    "등기부 권리분석 원문 재검증"
+  ],
+  "source": {
+    "primary": "https://madangs.com/caview?from=search_list&m_code=6120250072190001",
+    "source_name": "경매마당"
+  }
+}
