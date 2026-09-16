@@ -492,5 +492,24 @@
     "locationSourceUrl": "https://www.andong.go.kr/portal/saeol/gosi/view.do?isLinkage=Y&mId=0401020100&notAncmtMgtNo=63648",
     "checkedAt": "2026-09-15",
     "boundaryStatus": "공식 경계 좌표 미확보"
+  },
+  {
+    "id": "cheongdo-cheongnyeodowon",
+    "name": "청려도원(청도 지역활력타운) 조성사업",
+    "type": "지역활력타운·복합주거",
+    "operator": "경상북도개발공사 (청도군 협력)",
+    "location": "경상북도 청도군 화양읍 범곡리 860번지 일원",
+    "stage": "2026-06-01 보상계획 공고 확인 · 2025-11 기공식 보도자료 확인",
+    "summary": "청도군 지역활력타운 조성사업. 보상계획과 토지기본조서 첨부가 공식 공고에 확인되며, 공개 본문상 세부 필지·경계는 후속 대조가 필요.",
+    "scale": "50호 등 복합주거·생활SOC (세부 면적 미확인)",
+    "compensationSchedule": "2026-06-01 보상계획 열람공고 · 지급·보상완료 여부 미확인",
+    "projectPeriod": "미확인",
+    "constructionSchedule": "2025-11 기공식 보도자료 확인 · 준공일 미확인",
+    "parcelNote": "범곡리 860번지 일원은 위치 확인용. 토지기본조서 PDF 내부 필지·편입면적 미열람으로 경매 편입·보상권리 미검증.",
+    "officialUrl": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b3e75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=317ddd07-100b-4499-81b6-3ae48c0a8438&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&seqId=0000003653",
+    "parcelSourceUrl": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b3e75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=317ddd07-100b-4499-81b6-3ae48c0a8438&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&seqId=0000003653",
+    "locationSourceUrl": "https://www.ndmi.go.kr/home/sub.do?menukey=6285&mode=view&no=1875663&page=336",
+    "checkedAt": "2026-09-16",
+    "boundaryStatus": "공식 경계 좌표 미확보"
   }
 ]
