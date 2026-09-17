@@ -1,0 +1,28 @@
+[
+  {
+    "id": "2025타경51536-1",
+    "region": "충청권",
+    "court": "청주지방법원",
+    "caseNo": "2025타경51536",
+    "itemNo": "1",
+    "status": "기일대기",
+    "address": "충청북도 괴산군 감물면 오성리 369 외",
+    "land": "전·답 등",
+    "area": "4,375㎡",
+    "appraisal": 153620000,
+    "minimum": 75270000,
+    "bidDate": null,
+    "failedCount": 2,
+    "projectId": "goesan-jeomunicheon-candidate",
+    "confirm": "부분확인",
+    "inclusionType": "일부편입",
+    "partialArea": "확인중",
+    "residualArea": "확인중",
+    "risk": "저무니천 소하천구역·소하천예정지 저촉. 최신 매각기일 재공고 확인 필요.",
+    "note": "2026-09-17 재점검에서 기존 9/17 입찰·3회 유찰·최저가 52,692,000원 표기는 신뢰 가능한 최신 공개자료와 불일치. 공개자료는 2026-06-04 유찰, 2026-07-09 유찰 후 감정가 49% 수준 75,270,000원 및 현재 매각기일 미공고로 확인되어 기일대기로 정정. 경매마당/법원 최신 공고가 다시 잡히면 즉시 재검증 필요.",
+    "sourceUrl": "https://madangs.com/",
+    "verifiedAt": "2026-09-17",
+    "expropriationVerified": false,
+    "verificationNote": "소하천 저촉은 후보 근거. 정확한 실시계획·세목조서·편입면적은 미확정."
+  }
+]
