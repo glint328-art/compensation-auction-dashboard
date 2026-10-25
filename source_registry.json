@@ -60,8 +60,8 @@
     },
     {
       "name": "SH",
-      "status": "천왕2 구로구 공식 보상공고 본문 확인",
-      "url": "https://www.guro.go.kr/bbs/selectBbsNttView.do?bbsNo=662&key=3477&nttNo=217867&pageIndex=41&pageUnit=10"
+      "status": "2026-10-25 전용 보상정보 공개 HTML 및 최신 공고3건 본문 확인. 경계 미확보.",
+      "url": "https://www.i-sh.co.kr/bosang/index.do"
     },
     {
       "name": "GH",
@@ -755,6 +755,90 @@
       "deploymentCheck": "데이터·지도 GitHub 저장 완료. Pages 배포 결과는 후속 확인.",
       "mapPointCount": 50,
       "newMapPointCount": 23
+    },
+    {
+      "checkedAt": "2026-10-25",
+      "scope": "SH·GH·도로·IC·철도 범위 확대 및 지도 사업검색",
+      "newProjectCount": 10,
+      "newBoundaryCount": 0,
+      "linkedExistingBoundaryCount": 1,
+      "newVerifiedAuctionCount": 0,
+      "coverageComplete": false,
+      "sources": [
+        {
+          "authority": "SH",
+          "url": "https://www.i-sh.co.kr/bosang/index.do",
+          "result": "일반 웹 파서 실패 후 공식 홈페이지 공개 HTML 직접 열람. 보상정보 전용 사이트와 공고 상세3건 확인. 로그인 없이 공개된 본문만 읽음.",
+          "details": [
+            {
+              "id": "sh-sinnae4",
+              "url": "https://www.i-sh.co.kr/bosang/brd/m_5/view.do?multi_itm_seq=32&seq=309464",
+              "result": "이주대책·생활대책 변경공고 확인"
+            },
+            {
+              "id": "sh-junghak-road-square",
+              "url": "https://www.i-sh.co.kr/bosang/brd/m_5/view.do?multi_itm_seq=32&seq=310997",
+              "result": "국유지 추가편입 보상계획 공고"
+            },
+            {
+              "id": "suseo-damaged-land-restoration",
+              "url": "https://www.i-sh.co.kr/bosang/brd/m_5/view.do?multi_itm_seq=32&seq=311187",
+              "result": "국유지 수용재결 신청서류 열람공고"
+            }
+          ]
+        },
+        {
+          "authority": "GH",
+          "url": "https://www.gh.or.kr/gh/reward-announcement.do?article.offset=0&articleLimit=10&articleNo=65253&mode=view",
+          "result": "앞선 동일일 공식 본문 열람 결과의 지장물 공시송달을 과천과천 상세 사업으로 등록. 이번 재열람 시 웹 도구 접근 오류. 기존 LH 지도105125에 연결. 새 도형 아님."
+        },
+        {
+          "authority": "서울특별시",
+          "url": "https://www.seoul.go.kr/news/news_notice.do?nttNo=457861&tr_code=snews",
+          "result": "이수–과천 복합터널 공고 본문 확인. 구분지상권 약68필지, 기간·규모 확인. 좌표 미확보."
+        },
+        {
+          "authority": "경기도건설본부",
+          "url": "https://www.provin.gyeonggi.kr/bbs/boardView.do?bIdx=245951008&bsIdx=469&menuId=1547",
+          "result": "공식 검색문서의 군내–내촌 추가 보상계획 내용 확인. 본문 직접열람 도구 오류. 추가9필지326㎡·사업규모111634㎡·변경기간2027-12-31을 구분 기록."
+        },
+        {
+          "authority": "전북개발공사",
+          "url": "https://www.jbdc.co.kr/notice/notice.do?bbsId=BBSMSTR_000000000011&bbsgubun=10&mode=view&nttId=16013&pageIndex=1",
+          "result": "황산–금산사IC3공구 2026-10-12 공고 및 토지·물건조서 첨부 확인. 첨부 내부 미열람. 후속목록 소양–동상(10-07), 부전–칠보(09-22), 대강–금지(06-05) 조사 대기."
+        },
+        {
+          "authority": "아산시",
+          "url": "https://www.asan.go.kr/mayor/node/file/gy_8th3rd/3-3-15.%ED%98%84%EC%B6%A9%EC%82%ACIC~%EB%B0%B0%EB%B0%A9%C2%B7%ED%83%95%EC%A0%95%20%ED%95%9C%EB%82%B4%EB%A1%9C%20%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C%20%EC%A7%84%EC%9E%85%EB%A1%9C%20%EA%B0%9C%EC%84%A4%28%EB%8F%84%EB%A1%9C%EC%8B%9C%EC%84%A4%EA%B3%BC%29.pdf",
+          "result": "공식 추진자료 검색문서에서 보상착수 이력과 착공·준공 계획 구분. PDF 직접 열람 timeout."
+        },
+        {
+          "authority": "광주광역시·부천시",
+          "url": "https://bucheon.go.kr/site/program/board/basicboard/view?boardtypeid=26754&currentpage=5&encid=44KtEZdxU6o9%2Fh09jPLNiQ%3D%3D&menuid=148002003001&pagesize=10",
+          "result": "광주2026-404호 전문을 부천시 업무협조 게시물에서 실제 열람. 2단계 일시편입과 전체 노선 규모 구분. XLSX 내부 미열람."
+        },
+        {
+          "authority": "국가철도공단",
+          "url": "https://www.kr.or.kr/boardCnts/view.do?boardID=52&boardSeq=1122515&page=4",
+          "result": "7월6일 남부내륙철도 공식 보도자료 본문 열람. 본공사 착수 목표를 실제 착공으로 기록하지 않음. land.kr.or.kr 공개 진입·보상계획공고 메뉴 확보, 상세 목록은 다음 조사."
+        },
+        {
+          "authority": "택지정보시스템",
+          "url": "https://map.jigu.go.kr/",
+          "result": "실제 접속 화면 서비스 점검 중. 신규 SH·GH 경계 원본 미확보. 임의반경·노선 손그림 없음."
+        }
+      ],
+      "boundaryNote": "기본524+10월25일차분9를 병합한 활성530개 도형 유지. 이번 확대조사의 신규도형은0개. 경계 미확보 사업은 지도 상세 등록목록·검색에 표시하되 위치·구역 도형을 추정 생성하지 않음.",
+      "nextTargets": [
+        "SH 보상공고 목록 https://www.i-sh.co.kr/bosang/brd/m_5/list.do?multi_itm_seq=32 의 다음 페이지 및 신내4·수서훼손지 첨부",
+        "GH 추가 보상공고 PDF와 과천과천 공시송달 첨부·공동시행자 대조",
+        "국가철도공단 https://land.kr.or.kr/ntfc/sltCmpnstnPlnListVw.do 보상계획공고 목록·지역별 첨부",
+        "전북개발공사 소양–동상, 부전–칠보, 대강–금지 보상계획·세목",
+        "전국 도로·철도·IC 공식 지형도면·WFS·SHP·KML 경계 출처 확대",
+        "강원·충남·전남·경남·제주 기관별 순환조사: 기존 source_registry 기록 다음 출처부터",
+        "SH·GH 단독사업 원본 경계 좌표 확보·최신 변경고시 대조"
+      ],
+      "deploymentCheck": "배포 전 검증 완료·저장 및 배포 확인 대기"
     }
   ]
 }
