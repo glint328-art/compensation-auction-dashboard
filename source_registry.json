@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-10-25",
   "purpose": "전국 수용·협의취득 보상 대상 토지와 경매·공매 지번 대조",
   "coverageComplete": false,
   "automatedCollectionImplemented": false,
@@ -108,23 +108,18 @@
     }
   ],
   "boundaryCoverage": {
-    "checkedAt": "2026-09-11",
+    "checkedAt": "2026-10-25",
     "sourceName": "LH 내집어디 공개 사업경계",
     "sourceUrl": "https://wherehome.lh.or.kr/lhmap.do",
     "sourceLayer": "klhsb:em_jigu_border_pcc",
-    "sourceTotalFeatures": 524,
-    "downloadedFeatures": 524,
-    "uniqueProjectCodes": 520,
-    "sourceCategoryFeatureCounts": {
-      "LH": 508,
-      "PCC": 11,
-      "ALL": 5
-    },
+    "sourceTotalFeatures": 530,
+    "downloadedFeatures": 530,
+    "uniqueProjectCodes": 526,
     "geometryFile": "project_boundaries.geojson",
-    "geometryProcessing": "공개 EPSG:4326 좌표 원형 보존. 사업코드 중복이 있는 다중 도형은 삭제하지 않음.",
+    "geometryProcessing": "9월 원본 524개 도형 보존. 10월 25일 공개 WFS 전체 530개 도형과 비교해 신규 6개·변경 3개를 차분 파일에 저장. 지도는 사업코드별 차분을 우선 표시.",
     "coverageComplete": false,
     "parcelCompensationVerified": false,
-    "latestNoticeReflection": "미확인",
+    "latestNoticeReflection": "공개 레이어 좌표 변화는 확인. 각 사업 최신 고시 반영 여부는 미확인",
     "missingScope": [
       "SH·GH 등 개별 시행기관 사업 전체 경계 미확보",
       "도로·IC·철도·하천·댐·공항·항만 사업 전체 경계 미확보"
@@ -134,7 +129,11 @@
       "GH 광명시흥 도시첨단산업단지 외의 도로 설치공사 지형도면",
       "인천구월2 및 서울서리풀1 등 등록 사업 중 경계 미확보 목록"
     ],
-    "notes": "전국 단위 공개 레이어의 제공 건수 전체를 받았으나 전국 모든 개발·보상사업을 의미하지 않음. 준공 사업도 포함 가능."
+    "notes": "전국 단위 공개 레이어의 제공 건수 전체를 받았으나 전국 모든 개발·보상사업을 의미하지 않음. 준공 사업도 포함 가능.",
+    "geometryFiles": [
+      "project_boundaries.geojson",
+      "project_boundaries_update_20261025.geojson"
+    ]
   },
   "researchRuns": [
     {
@@ -603,7 +602,7 @@
       "sources": [
         {
           "url": "https://www.gbdc.co.kr/boardview/boardview.do?BBS_ID=4c9b3e75-2935-4bcd-96be-62fb07903949&BBS_TYPE=L&COLM1_CD=notice_03&CURRENT_PAGE=1&IPDS_IDX=317ddd07-100b-4499-81b6-3ae48c0a8438&SEARCH_CONTITION=CPDS_SUBJECT_CONTENT&seqId=0000003653",
-          "result": "경북개발공사 공고 제2026-507호(2026-06-01) 본문과 토지기본조서 PDF 첨부 확인. 사업 시행기관·보상계획 단계 확인."
+          "result": "청도군 공고 제2026-507호(2026-06-01) 본문과 토지기본조서 PDF 첨부 확인. 사업 시행기관·보상계획 단계 확인."
         },
         {
           "url": "https://www.ndmi.go.kr/home/sub.do?menukey=6285&mode=view&no=1875663&page=336",
@@ -645,6 +644,117 @@
         "청도군 지역 공익사업 후속 보상공고"
       ],
       "deploymentCheck": "GitHub 저장 완료·이번 변경 Pages 배포 별도 미확인"
+    },
+    {
+      "checkedAt": "2026-10-25",
+      "scope": "사용자 요청으로 전국 개발사업·경매·지도 조사 재개",
+      "sources": [
+        {
+          "authority": "LH",
+          "url": "https://www.lh.or.kr/board.es?bid=0060&mid=a10403170500",
+          "page": "1/164 (1,635건)",
+          "result": "10월 보상공고 목록 및 오정로·아산탕정2 외 도로·충주 바이오헬스·세종스마트 6차·과천갈현 협의 공고 PDF 본문 열람"
+        },
+        {
+          "authority": "GH",
+          "url": "https://www.gh.or.kr/gh/reward-announcement.do",
+          "page": "1/33 (330건)",
+          "result": "양주 은남 추가 보상공고와 과천과천 지장물 공시송달 본문 확인. 첨부 파서 미지원. 은남 사업개요의 규모·기간·착공 및 향후 준공 계획 확인"
+        },
+        {
+          "authority": "SH",
+          "result": "공식 도메인 보상계획 검색에서 활용 가능한 신규 공고 원문 확보 못함. SH 전체 조사 완료 아님"
+        },
+        {
+          "authority": "LH 공개 지도",
+          "url": "https://wherehome.lh.or.kr/lhmap.do",
+          "result": "공개 WFS totalFeatures=530, 실제530 수신. 기본524와 비교 신규6·변경3·누락0. 신규: 서리풀2(우면), 창2동주민센터인근, 서리풀1(원지), 영등포역인근, 구리토평2, 고양일산. 변경: 광주신창, 대구국가산단2단계, 대구사이언스파크."
+        },
+        {
+          "authority": "경매마당",
+          "result": "등록 파일3개의 공개 상세 URL 33개 원문 확인. 기일·최저가·유찰·변경·기각·취하·낙찰 확인. 필지 보상권리의 신규 검증은 별도 미완료.",
+          "urls": [
+            "https://madangs.com/caview?m_code=4220250000335001",
+            "https://madangs.com/caview?m_code=2520260600025001",
+            "https://madangs.com/caview?m_code=1020250057190001",
+            "https://madangs.com/caview?m_code=1020240008330001",
+            "https://madangs.com/caview?m_code=4320250001201001",
+            "https://madangs.com/caview?m_code=2820250012670001",
+            "https://madangs.com/caview?m_code=4320250001060001",
+            "https://madangs.com/caview?m_code=4120240113597001",
+            "https://madangs.com/caview?m_code=1420250052166001",
+            "https://madangs.com/caview?m_code=4220250002720001",
+            "https://madangs.com/caview?m_code=4720250022136001",
+            "https://madangs.com/caview?m_code=4320250011824001",
+            "https://madangs.com/caview?m_code=4320250000958001",
+            "https://madangs.com/caview?m_code=3820250003867001",
+            "https://madangs.com/caview?m_code=4320250011312001",
+            "https://madangs.com/caview?m_code=3020250000751002",
+            "https://madangs.com/caview?m_code=2220250030171002",
+            "https://madangs.com/caview?m_code=0920250035571001",
+            "https://madangs.com/caview?m_code=4620250030676002",
+            "https://madangs.com/caview?from=search_list&m_code=3320250010711001",
+            "https://madangs.com/caview?m_code=5020250032252001",
+            "https://madangs.com/caview?m_code=3320250000589001",
+            "https://madangs.com/caview?m_code=5220250005301001",
+            "https://madangs.com/caview?m_code=5720250030549001",
+            "https://madangs.com/caview?m_code=0720260060046001",
+            "https://madangs.com/caview?m_code=3320250000613001",
+            "https://madangs.com/caview?m_code=4420250012074001",
+            "https://madangs.com/caview?m_code=6120250071464001",
+            "https://madangs.com/caview?m_code=4620250000844001",
+            "https://madangs.com/caview?m_code=5920240035779001",
+            "https://madangs.com/caview?m_code=5020250003102001",
+            "https://madangs.com/caview?m_code=3120250007716001",
+            "https://madangs.com/caview?m_code=5020250032252002"
+          ]
+        },
+        {
+          "authority": "탱크옥션",
+          "url": "https://www.tankauction.com/ca/caList.php",
+          "result": "공개 목록 페이지 접근 확인. 이번 실행의 사건별 상세 교차검증 미완료·유료/로그인 우회 안 함"
+        }
+      ],
+      "newProjectCount": 4,
+      "updatedProjectIds": [
+        "sejong-smart",
+        "gwacheon-galhyeon"
+      ],
+      "newBoundaryCount": 6,
+      "changedBoundaryCount": 3,
+      "newVerifiedAuctionCount": 0,
+      "soldResults": [
+        {
+          "id": "2025타경1201-1",
+          "soldPrice": 218000000,
+          "note": "매각허가결정 확인, 10월28일 납부 표시는 미래이므로 납부 완료 미검증"
+        },
+        {
+          "id": "2025타경10711-1",
+          "soldPrice": 950000000
+        },
+        {
+          "id": "2025타경844-1",
+          "soldPrice": 367800000
+        }
+      ],
+      "reauctionResult": {
+        "id": "2025타경7716-1",
+        "previousSoldPrice": 200000000,
+        "result": "미납·재매각, 현재 낙찰가로 사용 안 함"
+      },
+      "coverageComplete": false,
+      "nextTargets": [
+        "SH 공식 보상 게시판 원문·공개 경계 확보",
+        "LH 보상공고 2페이지부터 9~10월 공고 조사",
+        "오정로 편입조서와 등록·신규 경매 필지 대조",
+        "양주은남 추가 보상공고 PDF 내부·토지조서 및 고시 경계",
+        "도로·철도·하천 등 비LH 공식 경계 출처 조사",
+        "기존 미열람 사건의 최신 결과 및 탱크옥션 사건별 공개 대조"
+      ],
+      "deploymentCheck": "데이터·지도 GitHub 저장 완료. Pages 배포 결과는 후속 확인.",
+      "mapPointCount": 50,
+      "newMapPointCount": 23
     }
   ]
 }
